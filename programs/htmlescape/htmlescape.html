@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="htmlescape.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="../../css/aderia.css" />
+    <link rel="stylesheet" href="../../css/simple-sidebar.css" />
+    <link rel="stylesheet" href="../../aimodal/core/aimodal.css" />
+    <link rel="stylesheet" href="../../css/aireobook.css" />
+    <link rel="stylesheet" href="../../css/front.css" />
+    <link rel="stylesheet" href="../../css/scrollbar.css" />
+    <link rel="stylesheet" href="../../translate/translator.css" />
+
+</head>
+
+<body class="front">
+
+<div id="aiwrapper" class="aiwrapper">
+    <header id="navbar" class="content-header ">
+        <div class="container-max header-b ">
+            <div class="ai-logo">
+                <h1>
+                    <a class="parent-center-h" href="../../index.html">
+                        <img class="center-h" src="../../img/aireobook.png" alt="aireobook">
+                    </a>
+                </h1>
+            </div>
+
+            <div class="ai-tranlator">
+                <div ><img id="actual-language" src="" width="50" />        &nbsp; &nbsp;
+                    <span class="ai-or">&nbsp;&nbsp;</span></div>
+                <div id="google_translate_element"></div>
+
+
+                <div class="ai-languages">
+                    <div id="flag-colombia"  data-lang ="colombia" title="Colombia"  class="flags link-js padding-left-20" onClick="javascript:close_clip()"><img src="../../img/flags/colombia.png" width="30" /></div>
+                    <div id="flag-poland"  data-lang ="poland"  title="Poland" class="flags link-js padding-left-20" onClick="javascript:close_clip()"><img src="../../img/flags/poland.png" width="30" /></div>
+                    <div id="flag-russia"  data-lang ="russia"  title="Russia" class="flags link-js padding-left-20" onClick="javascript:close_clip()"><img src="../../img/flags/russia.png" width="30" /></div>
+                    <div id="flag-spain"  data-lang ="spain"  title="Spain" class="flags link-js padding-left-20" onClick="javascript:close_clip()"><img src="../../img/flags/spain.png" width="30" /></div>
+
+                    <span  title="Reset" class="link-js padding-left-20 notranslate" id="remove-lang"><img src="../../img/flags/english.png" width="30" /></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+<div class="p-fixed"></div>
+
+
+
+
+
+<div class="form-wrapper">
+    <button id="clear" class="btn primary" title="" onclick="reload()">Reload page</button>
+
+        <input id="escape" name="escape" type="hidden" value="false">
+        <input id="language" name="language" value="HTML" type="hidden">
+
+        <div class="title first"><span class="option-text">Copy-paste the string to escape or unescape here</span></div>
+        <textarea id="inputString" name="inputString"></textarea>
+
+        <div class="buttons">
+            <button id="escapeButton" class="btn primary" title="" onclick=rep()>ESCAPE</button>
+            <button id="copy" class="btn primary" title="" onclick=copy_to_clipboard()>Copy</button>
+            <button id="clear" class="btn primary" title="" onclick="eraseText()">Clear</button>
+
+        </div>
+
+        <div>
+        </div>
+</div>
+
+
+ <script src="htmlescape.js" ></script>
+</body>
+</html>

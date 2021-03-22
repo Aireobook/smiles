@@ -1,0 +1,309 @@
+
+.yt .travel{
+    /*padding: 1px 1px;*/
+    /*color: #fff;*/
+    /*opacity: 0;*/
+    /*z-index: 4444444;*/
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*height: 50px;*/
+
+}
+
+.yt .adver{
+    font-size: .7rem;
+}
+.yt .adver a.link-js{
+    font-size: .8rem;
+    position: relative;
+    font-weight: 700;
+    top: 1px;
+}
+
+
+.yt .title{
+    width: 60%;
+    padding: 10px;
+    overflow: hidden;
+}
+
+
+.yt .header {
+    padding: 1px 1px;
+    color: #fff;
+    opacity: 0;
+    z-index: 4444444;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.yt .header:hover {
+    opacity: 1;
+    z-index: 4444444;
+    /* background: #000000f2; */
+    transition: all 0.4s ease-out;
+}
+
+.yt .close {
+    float: right;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    top: 0px;
+    position: relative;
+    right: 12px;
+    font-size: 25px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(
+            45deg
+            , #9f9d9fd6, #ffebfa 80%);
+    margin: 0;
+    color: rgba(0, 0, 0, .2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0);
+    z-index: 44444;
+    transition: all 0.4s ease-out;
+    font-family: sans-serif;
+}
+
+.yt .close:hover {
+    color: yellow;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    background: -webkit-linear-gradient(
+            45deg
+            , #ffe0ec, #ff4a00 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0000;
+    transition: all .4s ease-out;
+}
+
+
+
+
+
+
+
+
+@-webkit-keyframes animate_yt {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animate_yt {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+
+
+.aimodal .yt .wrapper {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: fit-content;
+    width: -moz-fit-content;
+    -webkit-animation-name: animate_yt;
+    -webkit-animation-duration: 0.3s;
+    animation-name: animate_yt;
+    animation-duration: 0.3s
+}
+
+
+
+.yt .aimodal-header {
+    padding: 1px 1px;
+    color: #fff;
+    opacity: 0;
+    z-index: 4444444;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    /*background: #707070;*/
+    /*box-shadow: 9px 9px 19px rgba(0, 0, 0, 0.55);*/
+}
+
+.yt .aimodale-header{
+    width: 60%;
+    padding: 10px;
+    overflow: hidden;
+}
+
+
+.yt .aimodal-header:hover {
+    opacity: 1;
+    z-index: 4444444; /*background: #000000f2;*/
+    transition: all 0.4s ease-out;
+}
+
+.yt .aimodal-header .close {
+    float: right;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    top: 0px;
+    position: relative;
+    right: 12px;
+    font-size: 33px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(45deg, #9f9d9fd6, #ffebfa 80%);
+    margin: 0;
+    color: rgba(0, 0, 0, .2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(0, 0, 0,  0);
+    z-index: 44444;
+    transition: all 0.4s ease-out;
+    font-family: sans-serif;
+}
+
+.yt .aimodal-header .close:hover {
+    color: yellow;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    background: -webkit-linear-gradient(45deg, #ffe0ec, #ff4a00 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0000;
+    transition: all .4s ease-out;
+}
+
+.yt .aimodal-content {
+    box-shadow: 9px 9px 19px rgba(0, 0, 0, 0.55);
+}
+
+.standard.yt.box {
+    display: none;
+    position: fixed;
+
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2000;
+    backdrop-filter: blur(5px);
+}
+
+.standard.yt .aiwrapper {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: fit-content;
+    width: -moz-fit-content;
+    -webkit-animation-name: animate_yt;
+    -webkit-animation-duration: 0.3s;
+    animation-name: animate_yt;
+    animation-duration: 0.3s
+}
+
+.yt .travel {
+    padding-top: 40px;
+}
+
+.yt .aimodal-footer {
+    color: #fff;
+    opacity: 0;
+    z-index: 4444444;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background: #707070;
+    box-shadow: 9px 9px 19px rgba(0, 0, 0, 0.55);
+}
+
+.yt .aimodal-footer:hover {
+    opacity: 1;
+    z-index: 4444444;
+    background: #000000f2;
+    transition: all 0.4s ease-out;
+}
+
+
+.yt .control{
+    display: flex;
+}
+
+.yt .aimodal-header .minimize {
+    float: right;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    top: 0px;
+    position: relative;
+    right: 12px;
+    font-size: 33px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(45deg, #9f9d9fd6, #ffebfa 80%);
+    margin: 0;
+    color: rgba(0, 0, 0, .2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(0, 0, 0,  0);
+    z-index: 44444;
+    transition: all 0.4s ease-out;
+    font-family: sans-serif;
+    position: relative;
+    /* bottom: 12px; */
+    top: -3px;
+    margin-right: 22px;
+}
+
+.yt .aimodal-header .minimize:hover {
+    color: yellow;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    background: -webkit-linear-gradient(45deg, #ffe0ec, #ff4a00 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0000;
+    transition: all .4s ease-out;
+}
+
+:root {
+    --button_width: 50px;
+}
+
+.foto  {
+    width: 100%;
+    height: inherit;
+    display: block;
+}
+
+img.foto{
+    background-color: #000000;
+}
+
+.link-image  {
+    width: 100%;
+    height: inherit;
+    display: block;
+}
+
+
+
+pre:before, pre:after{
+    display: none !important;
+}
+
+div.code-toolbar {
+    position: relative;
+    box-shadow: 4px 4px 8px #0000002e;
+}
+
+.alert-danger{
+    border-left: 10px #ae4c57 solid;
+    padding-left: 10px;
+}

@@ -1,0 +1,191 @@
+
+.width700{
+    width: 700px;
+}
+
+.height400{
+    height: 400px;
+}
+
+
+.imag .wrapper{
+    width: 100%;
+}
+
+.imag .header{
+    height: 50px;
+
+    display: flex;
+    justify-items: legacy;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 23px;
+    color: white;
+    /* background: teal; */
+
+    width: 100%;
+    height: 50px;
+    z-index: 100;
+    position: fixed;
+    transition: all .7s ;
+
+
+
+}
+
+.imag .header:hover{
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px #00000029;
+    background-image: linear-gradient(   180deg, #0000008f, transparent);
+
+
+
+
+
+
+
+}
+
+.imag .content{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+.imag .close{
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 1px 1px 3px #0000001f;
+    z-index: 1000;
+    /* background: red; */
+    width: 60px;
+    margin-right: 23px;
+    padding-right: 12px;
+}
+.imag .close:hover{
+    color: #ff4800;
+    cursor: pointer;
+    text-shadow: none
+}
+.imag .mfooter{
+    background: black;
+    height: 50px;
+}
+.imag.box{
+    background: black;
+}
+
+
+
+.image .control {
+    margin-right: 1px;
+}
+
+.image .control span {
+    /*margin-right: 15px;*/
+}
+
+.image .control .fullscreen {
+    position: relative;
+    bottom: 3px;
+}
+
+.image .aimodale-header {
+    color: #ffe0ec;
+    font-size: 14px;
+    position: relative;
+    left: 22px;
+    top: 10px;
+}
+
+.image .aimodal-header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image .aimodal-header .close { /*display: none;*/
+    font-family: sans-serif;
+    font-size: 42px;
+    color: #ffe0ec; /*background: #ff4a00;*/
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.image .aimodal-header .close:hover {
+    color: red;
+}
+
+
+img:hover{
+    /*cursor: move;*/
+}
+
+
+
+.image .aimodal-header .fullscreen {
+    font-family: sans-serif;
+    font-size: 32px;
+    color: #ffe0ec;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.image .aimodal-header .fullscreen:hover {
+    color: red;
+}
+
+.image.box {
+    background: rgba(81, 38, 38, 0.5);
+}
+
+.image .image-model {
+    /*max-width: 100vw;*/
+    /*max-height: calc(100vh - 100px);*/
+
+
+    /*margin: 0;*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*-ms-transform: translate(-50%, -50%);*/
+    /*transform: translate(-50%, -50%);*/
+
+    position: relative;
+    /*transition: all .4s linear;*/
+
+}
+
+.image .aimodal-content {
+    margin: auto;
+    width: fit-content;
+}
+
+.image.box {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #000000cf;
+}
+
+.image .aimodal-footer {
+    height: 40px;
+}
+
+.image .player.content-player {
+    vertical-align: middle;
+    display: block;
+}
+
+.image .aimodal-footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}

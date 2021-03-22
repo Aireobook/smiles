@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="public/canvas.css" />
+    <link rel="stylesheet" href="../prism/prism_okaida.css" />
+</head>
+<body class="ca">
+
+<header id="navbar" class="content-header ">
+    <div class="container-max header-b ">
+        <div class="ai-logo">
+            <h1>
+                <a class="parent-center-h" href="../../../index.html">
+                    <img class="center-h" src="../../../img/aireobook.png" alt="aireobook">
+                </a>
+            </h1>
+        </div>
+
+        <div class="ai-tranlator">
+<!--            <div class="flages" ><img id="actual-language" src="" width="50"  alt="image" />        &nbsp; &nbsp;-->
+<!--                <span class="ai-or">&nbsp;&nbsp;</span></div>-->
+<!--            <div id="google_translate_element"></div>-->
+
+
+            <div class="ai-languages">
+<!--                <div id="flag-colombia"  data-lang ="colombia" title="Colombia"  class="flags link-js padding-left-20" onClick="javascript:close_clip()"><img src="../../../img/flags/colombia.png" width="30" /></div>-->
+<!--                <div id="flag-poland"  data-lang ="poland"  title="Poland" class="flags link-js padding-left-20" onClick="javascript:close_clip()"><img src="../../../img/flags/poland.png" width="30" /></div>-->
+<!--                <div id="flag-russia"  data-lang ="russia"  title="Russia" class="flags link-js padding-left-20" onClick="javascript:close_clip()"><img src="../../../img/flags/russia.png" width="30" /></div>-->
+<!--                <div id="flag-spain"  data-lang ="spain"  title="Spain" class="flags link-js padding-left-20" onClick="javascript:close_clip()"><img src="../../../img/flags/spain.png" width="30" /></div>-->
+
+<!--                <span  title="Reset" class="link-js padding-left-20 notranslate" id="remove-lang"><img src="../../../img/flags/english.png" width="30" /></span>-->
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    <section id="topNav">
+    </section>
+    <section id="container">
+        <div id="lf"><div id="lfText"><div id="lfContent">
+            <!-------------------------- Code enter ------------------------------------->
+            <pre><code class="language-html">
+&lt;&#33;DOCTYPE html&gt;
+  &lt;html&gt;
+  &lt;head&gt;
+  &lt;meta charset=utf-8 &#47;&gt;
+  &lt;title&gt;Draw a circle&lt;&#47;title&gt;
+  &lt;&#47;head&gt;
+  &lt;body onload=&quot;draw();&quot;&gt;
+  &lt;canvas id=&quot;circle&quot; width=&quot;150&quot; height=&quot;150&quot;&gt;&lt;&#47;canvas&gt;
+
+  &lt;script&gt;
+
+      let x = 50;
+      let y = 40;
+      let radius = 20;
+
+      let canvas = document.getElementById(&quot;circle&quot;);
+      let ctx = canvas.getContext(&quot;2d&quot;);
+      ctx.arc(x, y, radius, 0, Math.PI * 2);
+      ctx.fillStyle = &quot;red&quot;;
+      ctx.fill();
+  &lt;&#47;script&gt;
+  &lt;&#47;body&gt;
+  &lt;&#47;html&gt;
+            </code></pre></div></div></div>
+
+        <!-------------------------- End Code ------------------------------------->
+
+
+        <!-------------------------  Result enter ----------------------------------->
+        <div id="ri"><div id="riText"><div id="riContent">
+
+            <canvas id="canvas" width="150" height="150"></canvas>
+
+            <script>
+                let x = 50;
+                let y = 40;
+                let radius = 20;
+
+                let canvas = document.getElementById("canvas");
+                let ctx = canvas.getContext("2d");
+                ctx.arc(x, y, radius, 0, Math.PI * 2);
+                ctx.fillStyle = "red";
+                ctx.fill();
+            </script>
+
+        </div></div></div>
+    </section>
+    <!-------------------------- Code enter ------------------------------------->
+
+<!--    <script type="text/javascript" src="public/canvas.js"></script>-->
+    <script src="../prism/prism_okaida.js"></script>
+
+</body>
+</html>

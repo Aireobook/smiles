@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Aireobook</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="css/aderia.css" />
+    <link rel="stylesheet" href="css/simple-sidebar.css" />
+    <link rel="stylesheet" href="aimodal/core/aimodal.css" />
+    <link rel="stylesheet" href="css/aireobook.css" />
+    <link rel="stylesheet" href="css/front.css" />
+    <link rel="stylesheet" href="css/scrollbar.css" />
+    <link rel="stylesheet" href="translater/translater.css" />
+    <script src="translater/translater.js"></script>
+    <script>compositartInitTranslater()</script>
+    <script src="js/lang.js"></script>
+    <script src="camodal/camodal.js"></script>
+    <link rel="stylesheet" href="camodal/css/camodal.css">
+
+    <script>
+        compositartInitModal('caButton');
+    </script>
+    <script src="camodal/entered/entered.js"></script>
+
+
+    <!--     <script src="translaterViewer/translaterViewer.js"></script>-->
+<!--    <script>compositartInitTranslaterViewer()</script>-->
+<!--    <link rel="stylesheet" href="translaterViewer/css/translaterviewer.css">-->
+
+</head>
+<body class="front bgimage">
+<div id=wrapper">
+
+
+    <div id="ajaxJoin"></div>
+
+
+         <div id="aiwrapper" class="aiwrapper">
+
+
+            <header id="navbar" class="content-header ">
+
+
+                <div class="container-max header-b ">
+                    <div class="ai-logo">
+                        <h1>
+                            <a class="parent-center-h" href="index.html">
+                                <img class="center-h" src="img/aireobook.png" alt="aireobook">
+                            </a>
+                        </h1>
+                    </div>
+
+
+                    <div class="d_flex">
+
+
+
+                        <div class="dropdown d-inline-block language-switch">
+                            <span class="__t">Language</span>
+                            <button id="btn-lang" type="button" class="btn header-item waves-effect show" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <div class="flages" ><img id="actual-language" src="img/flags/en.png" width="23" alt="image" />  </div>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end show" style="margin: 0px; position: absolute; inset: 0px auto auto 0px; transform: translate(-112px, 72px);" data-popper-placement="bottom-end">
+                                                        <div id="flag-colombia"  data-lang ="co"  title="Colombia"  class="flags  padding-left-20" ><img src="img/flags/co.png" width="23" />Colombia</div>
+                                                        <div id="flag-poland"    data-lang ="pl"  title="Poland"    class="flags  padding-left-20" ><img src="img/flags/pl.png" width="23" />Poland</div>
+                                                        <div id="flag-russia"    data-lang ="ru"  title="Russia"    class="flags  padding-left-20" ><img src="img/flags/ru.png" width="23" />Russia</div>
+                                                        <div id="flag-spain"     data-lang ="es"  title="Spain"     class="flags  padding-left-20" ><img src="img/flags/es.png" width="23" alt="spain"/>Spain</div>
+                                                        <div id="flag-english"   data-lang ="en"  title="English"   class="flags  padding-left-20" ><img src="img/flags/es.png" width="23" alt="spain"/>English</div>
+
+
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item noti-icon right-bar-toggle waves-effect">
+                                <div class="caButton js-btn" data-id="celicense"  data-toggle="modal1111111___" data-type="default" ><i class="far fa-address-card"></i> License</div>
+                            </button>
+                        </div>
+
+
+                        <div class="dropdown d-inline-block">
+                            <div class="caButton js-btn" data-id="ceoption"  data-toggle="modal1111111___" data-type="default" ><i class="far fa-address-card"></i> About</div>
+                        </div>
+
+                        &nbsp;
+                        <div class="dropdown d-inline-block">
+                            <div id="modal-config" class="caButton js-btn" data-id="ceconfig"  data-toggle="modal1111111___" data-type="default" ><i class="fa fa-cog" aria-hidden="true"></i>Config</div>
+
+                        </div>
+
+
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item noti-icon right-bar-toggle waves-effect">
+                               &nbsp; &nbsp;
+                            </button>
+                        </div>
+
+
+                    </div>
+
+
+    <!--                <div class="ai-tranlator">-->
+    <!--                    <div class="flages" ><img id="actual-language" src="img/flags/en.png" width="23" alt="image" />  </div>-->
+
+    <!--                    <div class="ai-languages">-->
+    <!--                        <div id="flag-colombia"  data-lang ="co"  title="Colombia"  class="flags  padding-left-20" ><img src="img/flags/co.png" width="23" />Colombia</div>-->
+    <!--                        <div id="flag-poland"    data-lang ="pl"  title="Poland"    class="flags  padding-left-20" ><img src="img/flags/pl.png" width="23" />Poland</div>-->
+    <!--                        <div id="flag-russia"    data-lang ="ru"  title="Russia"    class="flags  padding-left-20" ><img src="img/flags/ru.png" width="23" />Russia</div>-->
+    <!--                        <div id="flag-spain"     data-lang ="es"  title="Spain"     class="flags  padding-left-20" ><img src="img/flags/es.png" width="23" alt="spain"/>Spain</div>-->
+    <!--                        <div id="flag-english"   data-lang ="en"  title="English"   class="flags  padding-left-20" ><img src="img/flags/es.png" width="23" alt="spain"/>English</div>-->
+
+    <!--                    </div>-->
+    <!--                </div>-->
+                </div>
+
+    <!--            <div class="help-modal">-->
+    <!--                <div class="help-content">-->
+    <!--                    Helpdfdfdfdfdf-->
+    <!--                </div>-->
+    <!--            </div>-->
+
+            </header>
+
+            <section class="container-xxl nav-content ">
+
+                    <div class="row">
+                         <div class="homemenu">
+                              <div class="homemenu-content">
+                                   <ul>
+                                     <li class="active"><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+
+                                     <li><a href="aimodal.html" class=""><i class="fas fa-book"></i>aimodal</a></li>
+                                     <li><a href="programs/mindstrength/mind_strength.html" class=""><i class="fas fa-book"></i>Mind strength test</a></li>
+                                     <li><a href="programs/aidrag/aidrag.html" class=""><i class="fas fa-book"></i>Ai Drag</a></li>
+                                       <li class=""> <a  href="programs/htmlescape/htmlescape.html"><i class="fas fa-photo-video"></i>Html Escape</a></li>
+                                       <li class=""> <a  href="programs/ytlink/ytlink.html"><i class="fas fa-photo-video"></i>Ytube Image</a></li>
+                                     <li><a href="programs/school/canvas/canvas.html"><i class="fas fa-book"></i>School Canvas</a>
+                                         <span class="text-linked ai-text2"><p  id="not" class="__t">anchorr.</p></span>
+                                     </li>
+                                     <li class=""><a href="technical.html"><i class="fas fa-book"></i>Technical</a>
+                                        <span class="text-linked ai-text2"><p  id="tt" class="__t">Practical programs of all kinds, skill and games.</p></span>
+                                     </li>
+
+
+                                  </ul>
+
+                             </div>
+
+                         </div>
+
+                    </div> <!-- row -->
+
+                    <br>
+
+                    <br>
+                </section>
+
+            <section class="treek peent">
+                <div class="container-xxl en-treek-38">
+                    <h2 class="__t">Examples of using Wordpress plugins from the Compositart plugin family</h2>
+                    <p>
+
+
+                    <div class=" float-left mr15 bmodal70 link-div video-play " data-videocode="5TG4PZUMoYY" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480'>
+                        <img class="link-image" src="img/yt/5TG4PZUMoYY.jpg" alt=""/>
+                    </div>
+
+                    <span class="__t">The compositart-youtube plugin allows you to display YouTube videos. A series of buttons on the bottom bar of the window take you to your family YouTube site, zoom in on the window, and more.</span><br>
+                    <span class="__t">The window is closed by clicking the cross in the upper right corner. Clicking anywhere on the desktop outside of the pane closes the movie pauses and closes the pane. This means that after such closing, the movie can be resumed at the point of the pause.
+                        It's also a good practice to wrap the link image, like here. You can insert a video button anywhere in the text.</span>
+                    </p>
+
+                    <p><span class="__t">Example:</span>
+                        <span  class="lw50  ">
+                            <img class="world"  data-videocode="cTfxennz3xU"  data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' src="img/yt/cTfxennz3xU.jpg" alt="przykład oblewania tekstem" >
+                        </span>
+                        <span class="__t">Obviously, you have to get a bit of a fist with css, but I suppose that people who want to use our programs have sufficient knowledge of this programming language.</span>
+                   </p>
+                    <p><span class="__t">The size of the linking image can be freely changed:</span>
+                         <span class="lw70">  <img  class="world"  data-videocode="2grQUgf8260" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' src="img/yt/2grQUgf8260.jpg" alt="przykład oblewania tekstem" ></span>
+                      <span class="__t">such:</span>
+                         <span class="lw50"><img  class="world" data-videocode="L6dx0pO5MSw" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' src="img/yt/L6dx0pO5MSw.jpg" alt="przykład oblewania tekstem" ></span>
+                        <span class="__t">or such:</span>
+                         <span class="lw40"><img  class="world" data-videocode="xHnntPaQB7Q" data-title="" data-footer="footer2"  data-type="standard" data-width="427" data-height='240' src="img/yt/xHnntPaQB7Q.jpg" alt="przykład oblewania tekstem" ></span>
+                        <span class="__t">You can also run a video from a text link:</span>
+                          <span  class=" link-js world "  data-videocode="lbLhDxDk64U"    data-type="standard" data-width="1024" data-height="576"><i class="__t">text link to the video</i></span>
+                      </p>
+                    </div>
+                </section>
+        </div>
+
+
+        <div class="treek peent">
+            <h2 class="title-area">Promo music</h2>
+        </div>
+
+
+        <section class="container-xxl admiral-areen">
+            <div class="plexi plexi1">
+
+                <div data-videocode="ocFYE_FLydI" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' class="areea-yt bmodal_big link-div video-play ">
+                    <img  title="Greeicy - Los Besos (Versión Piano)"  class="foto link-img" src="img/yt/ocFYE_FLydI.jpg" alt="No image">
+                </div>
+                    <br>
+                <p>
+                    <span class="__t">Greeicy Yeliana Rendón Ceballos (born October 30, 1992) is a Colombian actress and singer</span>
+                    <span class="float-right"><a target="_blank" href="https://www.youtube.com/results?search_query=Greeicy+Yeliana">more...</a> </span>
+                </p>
+            </div>
+
+
+            <div class="areen3">
+                <div data-videocode="mz1Gjp0eJ8Q" class="areea-yt bmodal_big linked link-div video-play " title="EXAITED - MYŚLĘ O TOBIE (OFMT OLSZTYN 2019)"   data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
+                    <img   class="foto  link-img "  src="img/yt/mz1Gjp0eJ8Q.jpg" alt="No image">
+                </div>
+                <br>
+                <p>
+                    <span class="__t">Exaited - Polish disco polo band. It was established in 2006 on the initiative of Agnieszka Drewnicka and Tomasz Sidoruk.</span>
+                    <span class="float-right"><a target="_blank" href="https://www.youtube.com/results?search_query=Exaited">more...</a> </span>
+                </p>
+            </div>
+
+
+            <div class="areen3">
+                <div title="Дискотека Авария — Модный танец АРАМ ЗАМ ЗАМ (Официальный клип, 2009) [HQ]"  data-videocode="AsMTTh5Z1j8" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' class="areea-yt bmodal_big  link-div  ">
+                    <img   class="foto link-img " src="img/yt/AsMTTh5Z1j8.jpg" alt="No image">
+                </div>
+                <br>
+                <p>
+                    <span class="__t">Diskotieka Awarija - Russian music group playing music from rap, hip-hop, pop and rock, founded in 1996 in Ivanovo</span>
+                    <span class="float-right"><a target="_blank" href="https://youtu.be/AsMTTh5Z1j8">more...</a> </span>
+                </p>
+            </div>
+
+
+
+        </section>
+
+        <section class="container-xxl admiral-areen">
+
+
+
+         <div class="plexi plexi1">
+
+             <div data-videocode="aNvpzKx-J8w" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' class="areea-yt bmodal_big    link-div ">
+                 <img  title="Magda Durecka + K & K Studio Singers - MAGDA DANCE OMEGA MIX - HALINA MEGA MIX"  class="foto link-img " src="img/yt/aNvpzKx-J8w.jpg" alt="No image">
+             </div>
+             <br>
+             <p>
+                 <span class="__t">Magda Durecka (born March 3, 1967 in Kluczbork) - Polish singer and songwriter.</span>
+                 <span class="float-right"><a target="_blank" href="https://www.youtube.com/results?search_query=Magda+Durecka">more...</a> </span>
+             </p>
+         </div>
+
+
+
+
+
+
+         <div class="areen3">
+             <div   data-videocode="oaQEeQQ3qy0" class="areea-yt bmodal_big link-div" data-title="" title="Leo Rojas My Sweet Indian Child HD" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
+                 <img   class="foto link-img " src="img/yt/oaQEeQQ3qy0.jpg" alt="No image">
+             </div>
+             <br>
+             <p>
+                 <span class="__t">Leo Rojas came from his native country to Spain in 2000, while his family stayed in Ecuador. He currently lives with his Polish wife in Berlin</span>
+                 <span class="float-right"><a target="_blank" href="https://www.youtube.com/results?search_query=Leo+Rojas">more...</a> </span>
+             </p>
+         </div>
+
+            <div class="areen3 ">
+                <div data-videocode="t_bP0dZMC8g" class="areea-yt bmodal_big  link-div video-play " title="Leo Rojas My Sweet Indian Child HD"   data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
+                    <img   class="foto link-img" src="img/yt/t_bP0dZMC8g.jpg" alt="No image">
+                </div>
+                <br>
+                <p>
+                    <span class="__t">Elen Cora is a singer performing in the styles of Italo Disco, Euro Disco and Russian Disco. Elen Cora lives in Novosibirsk, Russia, and is the voice of Siberian Heat, Elen Cora, and Studiya-80 projects.</span>
+                    <span class="float-right"><a target="_blank" href="https://www.youtube.com/results?search_query=Siberian+heat">more...</a> </span>
+                </p>
+            </div>
+     </section>
+
+        <br><br>
+
+        <section class="treek peent ">
+                    <div class="container-xxl">
+                        <div class="tic-tac">
+                        <h2 class="__t">Sample images. Trochę zdjęć ze stajni P.E.Asgarniana</h2>
+
+                            <div class="areea">
+                                <div data-doc="wstaw1" data-title="image.jpg"  data-image="img/image01.jpg" class="imager" ><img  id="myImg" class="link-th" src="img/image01_th.jpg" alt="Girl in a jacket"></div>
+                                <div data-doc="wstaw1" data-title="image.jpg"  data-image="img/foto/BG202.jpg" class="imager" ><img   class="link-th" src="img/foto/BG202_th.jpg" alt="Girl in a jacket"></div>
+                                <div data-doc="wstaw1" data-title="image.jpg"  data-image="img/foto/a201.jpg" class="imager" ><img   class="link-th" src="img/foto/a201_th.jpg" alt="Girl in a jacket"></div>
+                                <div data-doc="wstaw1" data-title="image.jpg"  data-image="img/foto/a200 .jpg" class="imager" ><img   class="link-th" src="img/foto/a200_th.jpg" alt="Girl in a jacket"></div>
+                                <div data-doc="wstaw1" data-title="image.jpg"  data-image="img/foto/bg1701b.jpg" class="imager" ><img   class="link-th" src="img/foto/bg1701b_th.jpg" alt="Girl in a jacket"></div>
+
+                            </div>
+
+                            <br>
+                        <div class="areea">
+
+
+                        </div>
+                    </div>
+                    </div>
+
+
+             <br>
+
+
+                 </section>
+
+
+        <section class="treek peent">
+                    <div class="ai-text1 container-xxl">
+                        <h2>Sample video</h2>
+                        <div class="areea">
+
+
+
+
+
+                        <div class=" mr15 bmodal70 link-div video-play " data-videocode="7do4mTUoUAM" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480'>
+                           <img class="link-image" src="img/yt/7do4mTUoUAM.jpg" alt="">
+                        </div>
+
+                        <div class="mr15 bmodal70 link-div video-play" data-videocode="mWgn3UlVgRw" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
+                           <img class="foto" src="img/yt/mWgn3UlVgRw.jpg" alt="No image">
+                        </div>
+
+
+                        <div class="mr15 bmodal70 link-div video-play" data-videocode="XkVff6dZMv4" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
+                           <img class="foto" src="img/yt/XkVff6dZMv4.jpg" alt="No image">
+                        </div>
+
+
+
+
+                        <div class="mr15 bmodal70 link-div video-play" data-videocode="vAdLKystBTo" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
+                           <img class="foto" src="img/yt/vAdLKystBTo.jpg" alt="No image">
+                        </div>
+
+
+
+                        <div class="mr15 bmodal70 link-div video-play" data-videocode="ocFYE_FLydI" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
+                           <img class="foto" src="img/yt/ocFYE_FLydI.jpg" alt="No image">
+                        </div>
+
+                            <div class=" mr15 bmodal70 link-div video-play " data-videocode="3bF0knyugFQ" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480'>
+                                <img class="foto" src="img/yt/3bF0knyugFQ.jpg" alt="No image">
+                            </div>
+
+
+
+                            <div class="mr15 bmodal70 link-div video-play" data-videocode="AWld1xsz_6w" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
+                                <img class="foto" src="img/yt/AWld1xsz_6w.jpg" alt="No image">
+                            </div>
+
+                        <div class="mr15 bmodal70 link-div video-play" data-videocode="kr2hmq0o6pc" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
+                           <img class="foto" src="img/yt/kr2hmq0o6pc.jpg" alt="No image">
+                        </div>
+
+
+
+
+
+                        <div class="mr15 bmodal70 link-div video-play" data-videocode="XBdLsNNT064" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
+                           <img class="foto" src="img/yt/XBdLsNNT064.jpg" alt="No image">
+                        </div>
+
+
+                        <div class="mr15 bmodal70 link-div video-play" data-videocode="NOaKPbkJg-I" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
+                           <img class="foto" src="img/yt/NOaKPbkJg-I.jpg" alt="No image">
+                        </div>
+
+                        <div class="mr15 bmodal70 link-div video-play" data-videocode="lbLhDxDk64U" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
+                           <img class="foto" src="img/yt/lbLhDxDk64U.jpg" alt="No image">
+                        </div>
+
+                        <div class="mr15 bmodal70 link-div video-play" data-videocode="xB5aeEuValw" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
+                           <img class="foto" src="img/yt/xB5aeEuValw.jpg" alt="No image">
+                        </div>
+
+
+
+                        <div class="mr15 bmodal70 link-div video-play" data-videocode="kdWKJlLhwXc" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
+                           <img class="foto" src="img/yt/kdWKJlLhwXc.jpg" alt="No image">
+                        </div>
+
+
+
+
+                        <div class="mr15 bmodal70 link-div video-play" data-videocode="-t7m-Yxv5L4" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
+                           <img class="foto" src="img/yt/-t7m-Yxv5L4.jpg" alt="No image">
+                        </div>
+
+                        <div class="mr15 bmodal70 link-div video-play" data-videocode="TKTHX2k1XMU" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
+                           <img class="foto" src="img/yt/TKTHX2k1XMU.jpg" alt="No image">
+                        </div>
+
+
+                        <div class="mr15 bmodal70 link-div video-play" data-videocode="VOZFuHxfryw" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
+                           <img class="foto" src="img/yt/VOZFuHxfryw.jpg" alt="No image">
+                        </div>
+
+
+
+
+                        <div class="mr15 bmodal70 link-div video-play" data-videocode="5OCENVJ1_do" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
+                           <img class="foto" src="img/yt/5OCENVJ1_do.jpg" alt="No image">
+                        </div>
+
+                        <div class="mr15 bmodal70 link-div video-play" data-videocode="iyLdoQGBchQ" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
+                           <img class="foto" src="img/yt/iyLdoQGBchQ.jpg" alt="No image">
+                        </div>
+
+
+
+
+
+                        </div>
+
+            <hr>
+
+
+
+                 <h2>Sample long video</h2>
+                 <div class="areea">
+
+
+
+                     <div class=" mr15 bmodal70 link-div video-play " data-videocode="svRAt3112Po" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480'>
+                         <img class="link-image" src="img/yt/svRAt3112Po.jpg" alt="No image">
+                     </div>
+                     <div class="mr15 bmodal70 link-div video-play" data-videocode="8juoaj5mSdw" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
+                         <img class="foto" src="img/yt/8juoaj5mSdw.jpg" alt="No image">
+                     </div>
+
+
+
+                     <div class="mr15 bmodal70 link-div video-play" data-videocode="1ZYbU82GVz4" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
+                         <img class="foto" src="img/yt/1ZYbU82GVz4.jpg" alt="No image">
+                     </div>
+
+
+                 </div>
+             </div>
+
+         </section>
+
+
+         <br>
+
+
+    <footer id="footer">
+
+        <div class="footer-content container-xxl">
+
+
+
+            <div class=" grid">
+
+                <nav class="ai-static">
+                    <h6>Programs</h6>
+
+                    <ul>
+
+                        <li class="link-image"> <a  href="programs/htmlescape/htmlescape.html"><i class="fas fa-photo-video"></i>Html Escape</a></li>
+
+                        <li>--</li>
+                        <li class="link-image"><a href="https://aireobook.wordpress.com/menu/" class=""><i class="fas fa-laptop-house"></i>Wp Home</a></li>
+
+                    </ul>
+
+                </nav>
+
+                <nav class="ai-static"> </nav>
+                <nav class="ai-static"> </nav>
+                <nav class="ai-static"> </nav>
+                <nav class="ai-static"> </nav>
+
+
+                <nav class="ai-static">
+
+                    <div class="ai-logo">
+                        <h2>
+                            <a class="parent-center-h" href="index.html">
+                                <img class="center-h" src="img/aireobook.png" alt="aireobook">
+                            </a>
+                        </h2>
+                    </div>
+                </nav>
+
+            </div>
+
+         <br>
+            <hr class="hr-1">
+         <br>
+
+
+
+            <div class="footer-bottom_ grid">
+
+                <nav class="ai-static">
+                    <h6>Exterior photo pages</h6>
+                    <ul>
+                        <li class="link-image"> <a class="" data-image="img2.jpg"  href="https://pixabay.com/">Pixabay</a>  </li>
+                        <li class="link-image">  <a class=""  data-image="img2.jpg" href="#">Freepixels</a> </li>
+                        <li class="link-image"> <a class="" data-image="img2.jpg" href="https://picjumbo.com/">Picjumbo</a> </li>
+                        <li class="link-image"> <a class="" href="https://gratisography.com/">Gratisography</a> </li>
+                    </ul>
+                </nav>
+                <nav class="ai-static">
+                    <h6>Exterior photo pages</h6>
+                    <ul>
+                        <li class="link-image"> <a class="" data-image="img2.jpg"  href="https://kursjs.pl/kurs/events/events-mouse.php">Javascript mouse</a>  </li>
+
+                    </ul>
+                </nav>
+
+                <nav class="ai-static">
+                    <h6>External sites, useful for developers</h6>
+                    <ul>
+                        <li class="link-image"> <a class="" data-image="img2.jpg"  href="https://regexr.com/">regexr.com</a>  </li>
+                        <li class="" onclick="reload()"> <a class="#"   href="https://regexr.com/">reload test</a>  </li>
+                        <li class="" onclick="reload()"> <a class="#"   href="https://fontawesome.com/icons?d=gallery&p=2">Font Awesome Search</a>  </li>
+                    </ul>
+                </nav>
+
+            </div>
+
+
+            </div>
+
+
+
+
+
+    </footer>
+
+    <div class="subfooter">
+        <span class="center">template @ &nbsp;<i style = "color: #8ab4ff"> AIREOBOOK </i> &nbsp; Colombia & Europe It Group 2021</span>
+    </div>
+
+
+
+
+</div><!--wrapper    -->
+
+
+
+<small>
+    <script  src="aimodal/core/aimodal_html.js"></script>
+    <script  src="aimodal/core/CmModal.js"></script>
+    <script  src="aimodal/yt/YtMmodal.js"></script>
+    <script  src="aimodal/imagemodal/ImageModal.js"></script>
+
+
+
+
+
+    <script  src="translater/storage.js"></script>
+
+    <script  src="js/front_init.js"></script>
+<!--    <script src="prism/prism_coy.js"></script>-->
+    <script src="js/aimenu.js"></script>
+
+<!--    <script type="text/javascript" src="translate/ajax.js"></script>-->
+<!--    <script type="text/javascript" src="translate/translator.js"></script>-->
+<!--    <script type="text/javascript" src="translate/dic_en.js"></script>-->
+<!--    <script type="text/javascript" src="translate/dic_poland.js"></script>-->
+<!--    <script type="text/javascript" src="translate/dic_colombia.js"></script>-->
+<!--    <script type="text/javascript" src="translate/dic_spain.js"></script>-->
+<!--    <script type="text/javascript" src="translate/dic_russia.js"></script>-->
+    <script type="text/javascript" src="js/navbarhiden.js"></script>
+    <script type="text/javascript" src="js/image.js"></script>
+    <script type="text/javascript" src="aimodal/imagemodal/resize.js"></script>
+<!--    <script type="text/javascript" src="translate/ajaxpage.js"></script>-->
+
+</small>
+
+</body>
+</html>

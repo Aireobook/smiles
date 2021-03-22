@@ -1,0 +1,47 @@
+
+
+/* Animation bottom */
+@-webkit-keyframes slideTopCenter {
+    from {top: -500px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+@keyframes slideTopCenter {
+    from {top: -500px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+
+/* Animation bottom */
+@-webkit-keyframes slideTopCenterRevert {
+    from {top: 0; opacity: 1}
+    to {top: -500px; opacity: 0}
+}
+
+@keyframes slideTopCenterRevert {
+    from {top: 0; opacity: 1}
+    to {top: -500px; opacity: 0}
+}
+
+
+.centerLarge .travel {
+    max-width: 900px;
+    margin: 1.75rem auto;
+
+}
+
+.centerLarge  .camodal-content{
+    /*height: 50vh;*/
+}
+
+.centerLarge .travel{
+    animation-name: slideTopCenterRevert;
+    animation-duration: .4s;
+}
+
+.catmodal .centerLarge .travel{
+    animation-name: slideTopCenter;
+    animation-duration: .4s;
+}
+
+
+

@@ -1,0 +1,11 @@
+.front #tech-yt-info{
+    margin-top: 40px;
+    color: white;
+    display: block;
+}
+#tech-yt-info:before{
+    content: ' In order to get the html address of the youtube video. \a Insert share address. Then click "Create image link". You get the address and photo. \a The photo can be moved with the mouse to the desktop or a container. Copy image name - additionally you get a unique image name (Useful for developer) ';
+
+    white-space: pre;
+}
+

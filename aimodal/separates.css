@@ -1,0 +1,47 @@
+
+.box.standard.separates {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2000;
+    backdrop-filter: blur(5px);
+}
+
+
+.standard.separates .aiwrapper {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: fit-content;
+    width: -moz-fit-content;
+    -webkit-animation-name: animate_yt;
+    -webkit-animation-duration: 0.3s;
+    animation-name: animate_yt;
+    animation-duration: 0.3s;
+}
+
+.separates .travel {
+    padding-top: 40px;
+}
+
+.separates .aimodal-header {
+    padding: 1px 1px;
+    color: #fff;
+    opacity: 0;
+    z-index: 4444444;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    /* background: #707070; */
+    /* box-shadow: 9px 9px 19px rgb(0 0 0 / 55%); */
+}
+
+.separates .aimodal-content{
+    width: 854px;
+    height: 480px;
+    background: #0dcaf0;
+}

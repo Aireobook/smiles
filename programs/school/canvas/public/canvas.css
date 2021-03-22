@@ -1,0 +1,137 @@
+html body{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #999aa3;
+}
+body{
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+.ca .flags{
+    padding-right: 20px;
+}
+.ca #header{
+    height: 70px;
+}
+
+.ca #navbar{
+    background: beige;
+    /*background-image: url("../../../../img/bg/bgr08.jpg");*/
+    background-image: url(../../../../img/bg/b11c2b2.jpg);
+    box-shadow: 0 4px 6px #00000036;
+}
+
+.ca header .header-b{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 23px;
+}
+.ca header .ai-tranlator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ca header .ai-languages{
+    display: flex;
+}
+
+
+
+.ca header h1{
+    margin: 0;
+    padding: 0;
+}
+
+.ca header h1 img{
+    width: 170px;
+    height: auto;
+}
+
+
+
+
+
+.ca #topNav{
+    height: 40px;
+    overflow: hidden;
+    min-width: 380px;
+    position: absolute;
+    width: 100%;
+    top: 99px;
+    background-color: #516967;
+    width: 100%;
+
+}
+#dragbar {
+/*width: 15px;*/
+    background: #0dcaf0;
+    height: 90%;
+    width: 100%;
+}
+.ca #container{
+    background-color: #516967;
+    width: 100%;
+    width: 100%;
+    overflow: auto;
+    position: absolute;
+    top: 138px;
+    bottom: 0;
+    height: auto;
+
+    display: flex;
+}
+
+
+.ca #lf{
+    /*float: left;*/
+    height: 100%;
+    width: 50%;
+}
+.ca #ri{
+    /*float: left;*/
+    height: 100%;
+    width: 50%;
+}
+
+
+.ca #lfText{
+    height: 90%;
+
+    padding: 0;
+    resize: none;
+    margin: 0 15px;
+    width: calc(100% - 30px);
+    border: 1px solid black;
+    background: #272822;
+}
+
+.ca #lfContent{
+ padding: 15px;
+}
+
+
+
+.ca #riText{
+    padding: 0;
+    height: 90%;
+
+    width: calc(100% - 20px);
+    border: 1px solid black;
+    background: #d8d8d8;
+}
+.ca #riContent{
+    padding: 15px;
+}
+
+/*Repair*/
+pre[class*="language-"]>code {
+     border-left: none !important;
+     box-shadow: none !important;
+ background-image: none !important;
+
+}
