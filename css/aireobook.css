@@ -450,7 +450,7 @@ ul, li {
     margin:5px;  /* and that, will result in a 10px gap */
 }
 
-.areen1, .plexi1{
+.plexi1, .plexi1{
     animation: .4s ease-out slideInTreek;
     animation-delay: -.1s;
     /*background: #00000069;*/
@@ -465,7 +465,7 @@ ul, li {
     padding: 23px;
 }
 
-.areen3{
+.areen3, .plexi2{
     animation: .4s ease-out slideInTreek;
     animation-delay: -.3s;
     background: #00000069;
@@ -478,6 +478,27 @@ ul, li {
     width: fit-content;
     padding: 23px;
 }
+
+
+ .plexi3{
+     animation: .4s ease-out slideInTreek;
+     animation-delay: -.3s;
+     background: #0000008f;
+     /* background-image: url(../img/bg/b11c2b2.jpg); */
+     /* background-image: var(--image-bg-blend); */
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     /* box-shadow: inset 4px 5px 12px #ffffff24, 4px 4px 17px #000000; */
+     /* width: fit-content; */
+     padding: 23px;
+     border: 1px solid #34343433;
+     box-shadow: 1px 1px 21px #00000057;
+     margin-top: 50px;
+     margin-bottom: 50px
+ }
+
+
+
 
 
 .br7{
@@ -802,6 +823,11 @@ footer a:hover{
     color: #d2dc32;
     font-style: oblique;
 
+}
+
+.plexi3 h2{
+    color: #d2dc32;
+    font-style: oblique;
 }
 .video-30{
     width: 30px !important;

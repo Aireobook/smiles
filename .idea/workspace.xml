@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8f0e886-83e1-490c-ab22-cd3fa0c5c008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/bg/th/t_b3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg/th/t_colombia1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/patterns/black-thread-1920x1080.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/patterns/black-thread.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/camodal/css/camodal.css" beforeDir="false" afterPath="$PROJECT_DIR$/camodal/css/camodal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camodal/entered/entered.js" beforeDir="false" afterPath="$PROJECT_DIR$/camodal/entered/entered.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/camodal/modals.html" beforeDir="false" afterPath="$PROJECT_DIR$/camodal/modals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/aireobook.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aireobook.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/templates.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/templates.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/bg/th" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/patterns" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -52,10 +56,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Arkadiusz\Desktop\aireobook2\img\patterns" />
       <recent name="C:\Users\Arkadiusz\Desktop\aireobook2\img\bg\th" />
       <recent name="C:\Users\Arkadiusz\Desktop\aireobook2\img\bg" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Arkadiusz\Desktop\aireobook2\img\bg\th" />
       <recent name="C:\Users\Arkadiusz\Desktop\aireobook2\img\yt" />
     </key>
   </component>
@@ -73,7 +79,8 @@
       <workItem from="1616422499641" duration="12416000" />
       <workItem from="1616475152604" duration="21223000" />
       <workItem from="1616507314234" duration="16264000" />
-      <workItem from="1616570480655" duration="8713000" />
+      <workItem from="1616570480655" duration="10595000" />
+      <workItem from="1616597119426" duration="9872000" />
     </task>
     <servers />
   </component>

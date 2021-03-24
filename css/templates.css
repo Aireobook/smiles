@@ -9,7 +9,8 @@ body[data-template="template1"]{
 
 
 body[data-template="template1"]  .homemenu-content,
-body[data-template="template1"] .areen1, .plexi1,
+body[data-template="template1"] .plexi1,
+body[data-template="template1"] .plexi1,
 body[data-template="template1"] .areen3,
 body[data-template="template1"] .treek,
 body[data-template="template1"]  footer,
@@ -33,8 +34,9 @@ body[data-template="template2"]{
 
 
 
-body[data-template="template2"]  .homemenu-content,
-body[data-template="template2"] .areen1, .plexi1,
+body[data-template="template2"] .homemenu-content,
+body[data-template="template2"] .plexi1,
+body[data-template="template2"] .plexi1,
 body[data-template="template2"] .areen3,
 body[data-template="template2"] .treek,
 body[data-template="template2"]  footer,
@@ -65,7 +67,8 @@ body[data-template="template3"]{
 
 
 body[data-template="template3"] .homemenu-content,
-body[data-template="template3"] .areen1, .plexi1,
+body[data-template="template3"] .plexi1,
+body[data-template="template3"] .plexi1,
 body[data-template="template3"] .areen3,
 body[data-template="template3"] .treek,
 body[data-template="template3"]  footer,
@@ -74,5 +77,81 @@ body[data-template="template3"] .subfooter
 {
     background-image: url(../img/bg/bb3.jpg);
 }
+
+
+body[data-template="template3"]  .homemenu a {
+    font-family: Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
+    color: #aecdff;
+
+}
+
+
+
+
+
+/***********************************************    background 4  ***************************************/
+body[data-template="template4"]{
+    background-image: url(../img/bg/colombia1.jpg);
+    /*background-image: url(../img/bg/colombia2.jpg);*/
+
+}
+
+
+
+
+body[data-template="template4"] .homemenu-content,
+body[data-template="template4"] .plexi1,
+body[data-template="template4"] .plexi1,
+body[data-template="template4"] .areen3,
+body[data-template="template4"] .treek,
+body[data-template="template4"]  footer,
+body[data-template="template4"] .subfooter
+
+{
+    /*background-image: url(../img/bg/colombiab1.jpg);*/
+    /*background-image: url(../img/bg/colombia2.jpg);*/
+}
+
+
+/*body[data-template="template3"]  .homemenu a {*/
+/*    font-family: Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;*/
+/*    color: #aecdff;*/
+
+/*}*/
+
+
+
+
+/***********************************************    background 4  ***************************************/
+body[data-template="template5"]{
+    background-image: url(../img/bg/colombia1.jpg);
+    background-image: url(../img/bg/colombia2.jpg);
+    background-image: url(../img/patterns/black-thread-1920x1080.png);
+
+}
+
+
+
+
+body[data-template="template5"] .homemenu-content,
+body[data-template="template5"] .areen1,
+body[data-template="template5"] .plexi1,
+body[data-template="template5"] .areen3,
+body[data-template="template5"] .treek,
+body[data-template="template5"]  footer,
+body[data-template="template5"] .subfooter
+
+{
+    background-image: url(../img/patterns/black-thread-1920x1080b.jpg);
+    /*background-image: url(../img/bg/colombiab1.jpg);*/
+    /*background-image: url(../img/bg/colombia2.jpg);*/
+}
+
+
+/*body[data-template="template3"]  .homemenu a {*/
+/*    font-family: Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;*/
+/*    color: #aecdff;*/
+
+/*}*/
 
 
