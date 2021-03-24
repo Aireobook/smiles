@@ -1,20 +1,20 @@
 
-/* Animation bottom */
-@-webkit-keyframes slideFluidRight {
-    from {right: -500px; opacity: 0}
-    to {right: 0; opacity: 1}
-}
-@keyframes slideFluidRight {
-    from {right: -500px; opacity: 0}
-    to {right: 0; opacity: 1}
-}
+/*!* Animation bottom *!*/
+/*@-webkit-keyframes slideFluidRight {*/
+/*    from {right: -500px; opacity: 0}*/
+/*    to {right: 0; opacity: 1}*/
+/*}*/
+/*@keyframes slideFluidRight {*/
+/*    from {right: -500px; opacity: 0}*/
+/*    to {right: 0; opacity: 1}*/
+/*}*/
 
 
-/* Animation bottom */
-@-webkit-keyframes slideFluidRightRevert {
-    from {right: 0; opacity: 1}
-    to {right: -500px; opacity: 0}
-}
+/*!* Animation bottom *!*/
+/*@-webkit-keyframes slideFluidRightRevert {*/
+/*    from {right: 0; opacity: 1}*/
+/*    to {right: -500px; opacity: 0}*/
+/*}*/
 
 
 
@@ -30,15 +30,15 @@
     height: 100vh;
 }
 
-.travel{
-    animation-name: slideFluidRightRevert;
-    animation-duration: .4s;
-}
+/*.travel{*/
+/*    animation-name: slideFluidRightRevert;*/
+/*    animation-duration: .4s;*/
+/*}*/
 
-.catmodal .travel{
-    animation-name: slideFluidRight;
-    animation-duration: .4s;
-}
+/*.catmodal .travel{*/
+/*    animation-name: slideFluidRight;*/
+/*    animation-duration: .4s;*/
+/*}*/
 
 
 

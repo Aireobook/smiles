@@ -44,7 +44,7 @@
             // pliki z modalami zostaną dodane metodą ajax
             ajax(modals_page);
 
-            // nazwa klasy z buttonami uruchamiającymi okienka modal
+            // nazwa klasy z buttonami uruchamiającymi okienka modal   @@@ caButton
             button_class = (typeof button_class !== 'undefined' || null === button_class) ? button_class : 'caButton';
 
             initCaModal(button_class);
@@ -58,24 +58,106 @@
     function initCaModal(button_class) {
 
         const buttons = document.querySelectorAll('.' + button_class);
+
+
+
+
+
+        // wszystkie buttony .caButton
         for (let button of buttons) {
-
             button.addEventListener('click', inBtnClickInitModal , false);
-
 
             function inBtnClickInitModal(e){
                 e.stopPropagation();
-                let id = e.target.dataset.id;
 
-                if (id) {
-                    let modal = document.getElementById(id);
-                    viewModal(modal);
-                    initCloseX(id, modal);
+                let modal_open_id = button.dataset.id;
+
+                console.log('e', e)
+                console.log('button', button )
 
 
-                    // button.removeEventListener('click', inBtnClickInitModal , false);
+
+                // let caConfig = document.getElementById('ceconfig');
+                let caConfig = document.getElementById(modal_open_id);
+                caConfig.style.display = "block";
+
+
+
+
+                let travel = document.querySelector('#' + modal_open_id + ' .travel');
+                let close = document.querySelector('#' + modal_open_id + ' .close');
+
+                const style = getComputedStyle(travel);
+                let  travel_width = parseInt(style.width);
+
+                travel.style.right = '-' + travel_width;
+
+                animateModalRight.call(this, travel_width);
+
+
+                close.addEventListener('click', has_close_click, false)
+                    function has_close_click(e){
+                        animateOUTodalRight.call(this, travel_width);
+                    }
+
+
+                // Open
+                function animateModalRight(travel_width){
+                    // let travel = document.querySelector('#ceconfig .travel');
+                    // let tsr = parseInt(travel.style.right, 10 );
+
+                    var n = 0;
+                    console.log(n)
+                    amr(travel_width);
+                    function amr(width){
+                        travel.style.right = (n - width)  + "px";
+                        n += 10;
+                        // console.log('n', n)
+                        if(n < width ){
+                            setTimeout(function (){
+                                amr(width);
+                            }, 5)
+                        }
+                    }
+                }
+
+
+
+                // Close
+                function animateOUTodalRight(travel_width){
+
+                    // let travel = document.querySelector('#ceconfig .travel');
+
+                    var n = 0;
+                    console.log(n)
+                    amrout(travel_width);
+                    function amrout(width){
+                        travel.style.right = (-n)  + "px";
+                        n += 10;
+                        // console.log('n', n)
+                        if(n < width ){
+                            setTimeout(function (){
+                                amrout(width);
+                            }, 5)
+                        }
+                            if (n >= width){
+                                caConfig.style.display = 'none';
+                            }
+                    }
                 }
             }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -107,28 +189,28 @@
              }
 
          }
-
-         for (let closeoke of closeOK){
-
-             closeoke.addEventListener('click', ttok, false);
-             function ttok(e) {
-                 // e.stopPropagation();
-
-                 console.log('eeeeeeeeeeee')
-
-                 let fadere = document.querySelector('#fader');
-                 setTimeout(function () {
-                     modal.style.display = 'none';
-                 }, 250);
-
-                 let bodye = document.body;
-                 // bodye.style.overflow = "inherit";
-                 // bodye.classList.remove('catmodal')
-                 // fadere.remove();
-                 closeoke.removeEventListener('click', ttok, false);
-             }
-
-         }
+         //
+         // for (let closeoke of closeOK){
+         //
+         //     closeoke.addEventListener('click', ttok, false);
+         //     function ttok(e) {
+         //         // e.stopPropagation();
+         //
+         //         console.log('eeeeeeeeeeee')
+         //
+         //         let fadere = document.querySelector('#fader');
+         //         setTimeout(function () {
+         //             modal.style.display = 'none';
+         //         }, 250);
+         //
+         //         let bodye = document.body;
+         //         // bodye.style.overflow = "inherit";
+         //         // bodye.classList.remove('catmodal')
+         //         // fadere.remove();
+         //         closeoke.removeEventListener('click', ttok, false);
+         //     }
+         //
+         // }
 
 
 
@@ -158,22 +240,22 @@
         // body.append(f);
     }
 
-    // function closeModal(modal) {
-    //
-    //     let fader = document.querySelector('#fader');
-    //
-    //     console.log('fader', fader);
-    //
-    //     setTimeout(function () {
-    //         modal.style.display = 'none';
-    //     }, 250);
-    //
-    //     let body = document.body;
-    //     body.style.overflow = "inherit";
-    //     body.classList.remove('catmodal')
-    //     fader.remove();
-    //
-    // }
+    function closeModal(modal) {
+
+        let fader = document.querySelector('#fader');
+
+        console.log('fader', fader);
+
+        setTimeout(function () {
+            modal.style.display = 'none';
+        }, 250);
+
+        let body = document.body;
+        body.style.overflow = "inherit";
+        body.classList.remove('catmodal')
+        fader.remove();
+
+    }
 
 
     function ajax(modals_page) {

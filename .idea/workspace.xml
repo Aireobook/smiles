@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f8f0e886-83e1-490c-ab22-cd3fa0c5c008" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/templates.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg/b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg/b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg/bb1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg/bb2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg/test.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/yt/DtMXzVca6AM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/yt/POrbgeaw7ro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/yt/ZmIKIbjCMOg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/yt/_JFOjvfG8cc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/yt/bY-Vcb6QAGA.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/yt/e1AmVd8OLd0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/yt/ffoHtHELW1M.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/yt/gVgeJFWWBbw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/yt/hp4endJMu1E.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/yt/jhaTXWEVgHA.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/yt/n2vjJZ3xSXc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/yt/uJNZ_cPIDh0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/yt/yBEJvV1CM38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/yt/z_jjzd6eyX4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camodal/camodal.js" beforeDir="false" afterPath="$PROJECT_DIR$/camodal/camodal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camodal/css/camodal.css" beforeDir="false" afterPath="$PROJECT_DIR$/camodal/css/camodal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camodal/css/centerLarge.css" beforeDir="false" afterPath="$PROJECT_DIR$/camodal/css/centerLarge.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camodal/css/fluidRight.css" beforeDir="false" afterPath="$PROJECT_DIR$/camodal/css/fluidRight.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camodal/entered/entered.js" beforeDir="false" afterPath="$PROJECT_DIR$/camodal/entered/entered.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camodal/modals.html" beforeDir="false" afterPath="$PROJECT_DIR$/camodal/modals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/aireobook.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aireobook.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1q6V32Gj27vFi6d9wWiQvrboqwq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/bg" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Arkadiusz\Desktop\aireobook2\img\bg" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Arkadiusz\Desktop\aireobook2\img\yt" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8f0e886-83e1-490c-ab22-cd3fa0c5c008" name="Default Changelist" comment="" />
+      <created>1616399825578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616399825578</updated>
+      <workItem from="1616399827435" duration="5300000" />
+      <workItem from="1616413499709" duration="36000" />
+      <workItem from="1616422205014" duration="284000" />
+      <workItem from="1616422499641" duration="12416000" />
+      <workItem from="1616475152604" duration="21223000" />
+      <workItem from="1616507314234" duration="16264000" />
+      <workItem from="1616570480655" duration="6172000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
