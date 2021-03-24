@@ -1,5 +1,5 @@
 
-window.addEventListener('load', caInitSettings, false);
+window.addEventListener('DOMContentLoaded', caInitSettings, false);
 
 function caInitSettings(){
 
