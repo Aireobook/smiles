@@ -3,6 +3,10 @@ window.addEventListener('load', caInitSettings, false);
 
 function caInitSettings(){
 
+    let tmpl = localStorage.getItem('template');
+    document.body.setAttribute('data-template',  tmpl);
+
+
 const buttons2 = document.getElementById('modal-config');
 buttons2.addEventListener('click', function (){
     let th_settings = document.querySelectorAll('.th_settings')
@@ -26,7 +30,7 @@ buttons2.addEventListener('click', function (){
                     // template.im = im;
                     // template.blur = blur;
 
-                    // localStorage.setItem('template', this.dataset.template)
+                    localStorage.setItem('template', this.dataset.template)
 
 
                     // console.log('template', template)
