@@ -553,14 +553,13 @@ img {
     z-index: 1000;
     display: flex;
     align-items: center;
-    /*padding-left: 12px;*/
-    /*background: #003eff54;*/
+    /* padding-left: 12px; */
+    /* background: #003eff54; */
     border-bottom: 1px solid #0000004d;
-     backdrop-filter: blur(15px);
+    /* backdrop-filter: blur(15px); */
     box-shadow: 0 7px 12px #0000004d;
     margin-bottom: 32px;
-
-    background: #00000040;
+    background: #0000006e;
 }
 .areea{
     /*background: white;*/
