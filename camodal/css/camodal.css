@@ -6,7 +6,7 @@
 
 
 .camodal .travel {
-    max-width: 500px;
+    max-width: 590px;
     /*margin: 1.75rem auto;*/
     position: absolute;
     right: 2px;
@@ -117,7 +117,7 @@
     border-bottom-right-radius: calc(0.3rem - 1px);
     border-bottom-left-radius: calc(0.3rem - 1px);
     /*justify-content: center;*/
-    position: absolute;
+    /*position: absolute;*/
     bottom: 12px;
     left: 23px;
     right: 23px;
@@ -196,9 +196,10 @@
 }
 
 .light .camodal-content {
-    background-color: #02020285;
+
     background-color: #94cff285;
     backdrop-filter: blur(11px);
+    overflow-y: auto;
 }
 
 .ramka{

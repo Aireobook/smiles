@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f8f0e886-83e1-490c-ab22-cd3fa0c5c008" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camodal/camodal.js" beforeDir="false" afterPath="$PROJECT_DIR$/camodal/camodal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camodal/css/camodal.css" beforeDir="false" afterPath="$PROJECT_DIR$/camodal/css/camodal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camodal/entered/entered.js" beforeDir="false" afterPath="$PROJECT_DIR$/camodal/entered/entered.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camodal/modals.html" beforeDir="false" afterPath="$PROJECT_DIR$/camodal/modals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/aireobook.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aireobook.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/templates.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/templates.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +78,7 @@
       <workItem from="1616475152604" duration="21223000" />
       <workItem from="1616507314234" duration="16264000" />
       <workItem from="1616570480655" duration="10595000" />
-      <workItem from="1616597119426" duration="10818000" />
+      <workItem from="1616597119426" duration="18740000" />
     </task>
     <servers />
   </component>

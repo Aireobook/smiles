@@ -494,7 +494,14 @@ ul, li {
      border: 1px solid #34343433;
      box-shadow: 1px 1px 21px #00000057;
      margin-top: 50px;
-     margin-bottom: 50px
+     margin-bottom: 50px;
+     background-position: center;
+     background-size: cover;
+
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
  }
 
 
