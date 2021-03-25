@@ -41,8 +41,19 @@
 }
 .language-switch{
     font-size: 14px;
+
+    position: relative;
+    top: -3px;
+    padding: 2px;
+
 }
 
+.flages{
+    padding: 0 12px;
+    position: relative;
+    top: -2px;
+    cursor: pointer;
+}
 .flags img{
     margin-right: 12px;
 }
@@ -224,6 +235,12 @@ select option{
             , #1f2f0be3, #3fbe4994);
     box-shadow: 4px 7px 9px #0000006b;
     padding: 10px 2px 10px 17px;
+
+
+    margin: 0px;
+    position: absolute;
+    inset: 0px auto auto 0px;
+    transform: translate(1px, 45px);
 
 }
 

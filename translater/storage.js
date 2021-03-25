@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (get_language() !== null ){
         let actual = document.getElementById('actual-language');
         actual.src = "img/flags/" + get_language() +".png";
-        console.log("get language", get_language());
+        // console.log("get language", get_language());
 
         // language(get_language());
     }
@@ -19,11 +19,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
    let storage = get_language();
-   console.log('storage:', storage);
+   // console.log('storage:', storage);
 
     let anchors = document.querySelectorAll(".flags");
 
-    console.log('anchors', anchors);
+    // console.log('anchors', anchors);
 
     // let remowe_lang = document.getElementById('remove-lang');
     // remowe_lang.onclick = function (){

@@ -534,7 +534,35 @@ img {
 
 }
 
+#setup-blur img{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 30px;
+}
 
+#setup-blur{
+    width: 70px;
+    height: 40px;
+    position: relative;
+    left: 30px;
+    margin-right: 14px;;
+    cursor: pointer;
+   background-image: url("../img/bg/th/buton_blur.png");
+}
+#setup-blur-blur{
+    width: 70px;
+    height: 40px;
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+   background-image: url("../img/bg/th/buton_blur_active.png");
+}
+
+/*#setup-blur:hover{*/
+
+/*   !*background-image: url("../img/bg/th/buton_blur_active.png") !important;*!*/
+/*}*/
 
 .top-info{
     padding-top: 10px;
