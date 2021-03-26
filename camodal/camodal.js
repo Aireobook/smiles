@@ -41,14 +41,18 @@
             ajx.setAttribute('id', 'ajaxmodaljoin');
             document.body.appendChild(ajx);
 
-            // pliki z modalami zostaną dodane metodą ajax
-            ajax(modals_page);
-
             // nazwa klasy z buttonami uruchamiającymi okienka modal   @@@ caButton
             button_class = (typeof button_class !== 'undefined' || null === button_class) ? button_class : 'caButton';
 
-            initCaModal(button_class);
-            // initClose_X();
+                fetch(modals_page)
+                    .then(res => res.text())
+                    .then(html => {
+                        let ajax_join = document.getElementById('ajaxmodaljoin');
+                        ajax_join.innerHTML = html;
+                        initCaModal(button_class);
+                    }).catch(err => {
+                    console.warn('Something went wrong.', err)
+                })
 
         }, false);
     }
@@ -59,11 +63,12 @@
 
         const buttons = document.querySelectorAll('.' + button_class);
 
+        let _travel;
+        let _travel_width;
+        let _caConfig;
 
+        // ********************* wszystkie buttony .caButton *******************
 
-
-
-        // wszystkie buttony .caButton
         for (let button of buttons) {
             button.addEventListener('click', inBtnClickInitModal , false);
 
@@ -72,190 +77,121 @@
 
                 let modal_open_id = button.dataset.id;
 
-                console.log('e', e)
-                console.log('button', button )
-
-
-
-                // let caConfig = document.getElementById('ceconfig');
+            // let caConfig = document.getElementById('ceconfig');
                 let caConfig = document.getElementById(modal_open_id);
                 caConfig.style.display = "block";
 
-
-
-
                 let travel = document.querySelector('#' + modal_open_id + ' .travel');
-                let close = document.querySelector('#' + modal_open_id + ' .close');
+                // let close = document.querySelector('#' + modal_open_id + ' .close');
+                let close_ok = document.querySelector('#' + modal_open_id + ' .close-ok');
+
+
 
                 const style = getComputedStyle(travel);
                 let  travel_width = parseInt(style.width);
 
-                travel.style.right = '-' + travel_width;
+                _travel = travel;
+                _travel_width = travel_width;
+                _caConfig = caConfig;
 
-                animateModalRight.call(this, travel_width);
+                    travel.style.right = '-' + travel_width;
+
+                animateModalRight(travel, travel_width);
+
+            }
+        }
+
+        // ********************* wszystkie buttony .close *******************
+
+            let ajaxmodaljoin = document.getElementById('ajaxmodaljoin');
+
+            let closeee = ajaxmodaljoin.querySelectorAll(".close");
+
+            for (let clos of closeee){
+                clos.addEventListener('click', close_modal_init, false);
+
+                function close_modal_init(e){
+                    console.log('eeeee----------------------', e)
+                    console.log('this----------------------', this)
 
 
-                close.addEventListener('click', has_close_click, false)
-                    function has_close_click(e){
-                        animateOUTodalRight.call(this, travel_width);
-                    }
-
-
-                // Open
-                function animateModalRight(travel_width){
-                    // let travel = document.querySelector('#ceconfig .travel');
-                    // let tsr = parseInt(travel.style.right, 10 );
-
-                    var n = 0;
-                    console.log(n)
-                    amr(travel_width);
-                    function amr(width){
-                        travel.style.right = (n - width)  + "px";
-                        n += 10;
-                        // console.log('n', n)
-                        if(n < width ){
-                            setTimeout(function (){
-                                amr(width);
-                            }, 5)
-                        }
-                    }
+                    animateOUTodalRight(_travel, _travel_width, _caConfig )
+                    // clos.removeEventListener('click', close_modal_init, false);
+                    // caConfig.style.display = "none";
                 }
 
-
-
-                // Close
-                function animateOUTodalRight(travel_width){
-
-                    // let travel = document.querySelector('#ceconfig .travel');
-
-                    var n = 0;
-                    console.log(n)
-                    amrout(travel_width);
-                    function amrout(width){
-                        travel.style.right = (-n)  + "px";
-                        n += 10;
-                        // console.log('n', n)
-                        if(n < width ){
-                            setTimeout(function (){
-                                amrout(width);
-                            }, 5)
-                        }
-                            if (n >= width){
-                                caConfig.style.display = 'none';
-                            }
-                    }
-                }
             }
 
 
 
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+    /** ***********************************************************************************************************/
+
+
+
+
+
+
+
+    // Open
+    function animateModalRight(travel, travel_width){
+        // let travel = document.querySelector('#ceconfig .travel');
+        // let tsr = parseInt(travel.style.right, 10 );
+
+        var n = 0;
+        amr(travel_width);
+        function amr(width){
+            travel.style.right = (n - width)  + "px";
+            n += 10;
+            if(n < width ){
+                setTimeout(function (){
+                    amr(width);
+                }, 5)
+            }
         }
     }
 
-    function initCloseX(id, modal) {
-        const closeX = document.querySelectorAll('#' + id + ' .close');
-        const closeOK = document.querySelectorAll('#' + id + ' .close-ok');
 
 
-         for (let close of closeX){
+    // Close
+    function animateOUTodalRight(travel, travel_width, caConfig){
 
-             close.addEventListener('click', tt, false);
-             function tt(e) {
-                 e.stopPropagation();
+        // let travel = document.querySelector('#ceconfig .travel');
 
-                 let fader = document.querySelector('#fader');
-                 setTimeout(function () {
-                     modal.style.display = 'none';
-                 }, 250);
-                 // modal.style.display = 'none';
+        var n = 0;
+        amrout(travel_width);
+        function amrout(width){
+            travel.style.right = (-n)  + "px";
+            n += 10;
 
-                 let body = document.body;
-                 body.style.overflow = "inherit";
-                 // body.classList.remove('catmodal')
-                 // fader.remove();
-                 close.removeEventListener('click', tt, false);
-             }
-
-         }
-         //
-         // for (let closeoke of closeOK){
-         //
-         //     closeoke.addEventListener('click', ttok, false);
-         //     function ttok(e) {
-         //         // e.stopPropagation();
-         //
-         //         console.log('eeeeeeeeeeee')
-         //
-         //         let fadere = document.querySelector('#fader');
-         //         setTimeout(function () {
-         //             modal.style.display = 'none';
-         //         }, 250);
-         //
-         //         let bodye = document.body;
-         //         // bodye.style.overflow = "inherit";
-         //         // bodye.classList.remove('catmodal')
-         //         // fadere.remove();
-         //         closeoke.removeEventListener('click', ttok, false);
-         //     }
-         //
-         // }
-
-
-
-
-
-
+            if(n < width ){
+                setTimeout(function (){
+                    amrout(width);
+                }, 5)
+            }
+            if (n >= width){
+                caConfig.style.display = 'none';
+            }
+        }
     }
 
-
-    /***************** Funkcje wykonawcze ******************/
-    // function randomID(long = false) {
-    //     let r = null;
-    //     r = long ? btoa(Math.random()).replace(/=+/g, "a") : Math.random().toString(36).replace(/[^a-z]+/g, '').substr(2, 10);
-    //     console.log('r', r)
-    //     return r;
-    // }
-
-    function viewModal(modal) {
-        modal.style.display = 'block';
-        let body = document.body;
-        // body.style.overflow = "hidden";
-        body.classList.add('catmodal')
-
-        // let f = document.createElement('div');
-        // f.setAttribute('id', 'fader');
-        // f.setAttribute('class', 'fader ' + randomID());
-        // body.append(f);
-    }
-
-    function closeModal(modal) {
-
-        let fader = document.querySelector('#fader');
-
-        console.log('fader', fader);
-
-        setTimeout(function () {
-            modal.style.display = 'none';
-        }, 250);
-
-        let body = document.body;
-        body.style.overflow = "inherit";
-        body.classList.remove('catmodal')
-        fader.remove();
-
-    }
-
-
-    function ajax(modals_page) {
-        fetch(modals_page)
-            .then(res => res.text())
-            .then(html => {
-                let ajax_join = document.getElementById('ajaxmodaljoin');
-                ajax_join.innerHTML = html;
-            }).catch(err => {
-            console.warn('Something went wrong.', err)
-        })
-    }
 
 
     window.compositartInitModal = compositartInitModal;

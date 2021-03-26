@@ -588,6 +588,8 @@ img {
     box-shadow: 0 7px 12px #0000004d;
     margin-bottom: 32px;
     background: #0000006e;
+    width: -webkit-fill-available;
+    height: 44px;
 }
 .areea{
     /*background: white;*/
