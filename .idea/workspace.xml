@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8f0e886-83e1-490c-ab22-cd3fa0c5c008" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/yt/H7FdOqRdtFc.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camodal/camodal.js" beforeDir="false" afterPath="$PROJECT_DIR$/camodal/camodal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/camodal/entered/entered.js" beforeDir="false" afterPath="$PROJECT_DIR$/camodal/entered/entered.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/camodal/modals.html" beforeDir="false" afterPath="$PROJECT_DIR$/camodal/modals.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/aireobook.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aireobook.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/templates.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/templates.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg/th/buton_blur.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg/th/buton_blur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg/th/buton_blur_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg/th/buton_blur_active.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translater/storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/translater/storage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translater/translater.css" beforeDir="false" afterPath="$PROJECT_DIR$/translater/translater.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +61,8 @@
       <recent name="C:\Users\Arkadiusz\Desktop\aireobook2\img\bg" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Arkadiusz\Desktop\aireobook2\img\bg\th" />
       <recent name="C:\Users\Arkadiusz\Desktop\aireobook2\img\yt" />
+      <recent name="C:\Users\Arkadiusz\Desktop\aireobook2\img\bg\th" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -81,7 +82,8 @@
       <workItem from="1616570480655" duration="10595000" />
       <workItem from="1616597119426" duration="20280000" />
       <workItem from="1616652098921" duration="10330000" />
-      <workItem from="1616670250214" duration="10197000" />
+      <workItem from="1616670250214" duration="13089000" />
+      <workItem from="1616739997657" duration="2585000" />
     </task>
     <servers />
   </component>

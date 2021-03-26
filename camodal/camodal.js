@@ -34,7 +34,7 @@
 
     function compositartInitModal(button_class, modals_page = 'camodal/modals.html') {
 
-        window.addEventListener('load', function () {
+        window.addEventListener('DOMContentLoaded', function () {
 
             // dodajemy <div id="ajaxmodaljoin"></div>
             const ajx = document.createElement('div');

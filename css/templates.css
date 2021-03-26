@@ -10,19 +10,6 @@ body[data-template="template1"].blur .plexi3{
 }
 
 
-/*body[data-template="template1"]  .homemenu-content,*/
-/*body[data-template="template1"] .plexi1,*/
-/*body[data-template="template1"] .plexi3,*/
-/*body[data-template="template1"] .areen3,*/
-/*body[data-template="template1"] .treek,*/
-/*body[data-template="template1"]  footer,*/
-/*body[data-template="template1"] .subfooter*/
-
-/*{*/
-/*    background-image: url(../img/bg/bb1.jpg);*/
-/*}*/
-
-
 
 
 
@@ -39,27 +26,6 @@ body[data-template="template2"].blur .plexi3{
 
 
 
-/*body[data-template="template2"] .homemenu-content,*/
-/*body[data-template="template2"] .plexi1,*/
-/*body[data-template="template2"] .plexi3,*/
-/*body[data-template="template2"] .areen3,*/
-/*body[data-template="template2"] .treek,*/
-/*body[data-template="template2"]  footer,*/
-/*body[data-template="template2"] .subfooter*/
-
-/*{*/
-/*    background-image: url(../img/bg/bb2.jpg);*/
-/*}*/
-
-
-
-
-/*************************************************************************************/
-
-
-
-
-
 
 
 /***********************************************    background 3  ***************************************/
@@ -72,13 +38,10 @@ body[data-template="template3"].blur .plexi3{
 }
 
 
-
-
 body[data-template="template3"]  .homemenu a {
     font-family: Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
     color: #aecdff;
 }
-
 
 
 /***********************************************    background 4  ***************************************/
@@ -89,9 +52,6 @@ body[data-template="template4"]{
 body[data-template="template4"].blur .plexi3{
     background-image: url(../img/bg/colombiab1.jpg);
 }
-
-
-
 
 
 
