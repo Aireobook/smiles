@@ -75,7 +75,7 @@ class YtModal extends CmModal {
 
     onclickESC() {
 
-        console.log('player1', player);
+        // console.log('player1', player);
         let self = this;
 
         // KEY PRESS
@@ -137,7 +137,7 @@ class YtModal extends CmModal {
                 player.stopVideo();
 
 
-                console.log('namefilm', self.old_video_id);
+                // console.log('namefilm', self.old_video_id);
 
                 window.w = window.open(
                     // 'http://localhost:63342/airebook/minima.html?v=' + self.old_video_id  ,
@@ -230,7 +230,7 @@ class YtModal extends CmModal {
             window.player.playVideo();
         }
         let video_ai = video;
-        console.log('window.player______________', window.player);
+        // console.log('window.player______________', window.player);
 
 
 

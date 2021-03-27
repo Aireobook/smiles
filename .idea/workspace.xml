@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8f0e886-83e1-490c-ab22-cd3fa0c5c008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/yt/-hZlIC2Kayk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/yt/0qxabzjOINU.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/yt/3_uQSTUE8sU.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/yt/4-CuNJJO604.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/yt/4I6D-GQ_2fY.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/yt/7IzezDJrHoU.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/yt/MCEcWcIww5k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/yt/Qk52ypnGs68.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/yt/RJloVc0jfa8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/yt/YX2LWYqW5xk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/yt/lEGImihwDKQ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/yt/nJ31sMmytHU.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/yt/q_eo5j5sib8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/yt/rqSF_9Zf0n4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camodal/camodal.js" beforeDir="false" afterPath="$PROJECT_DIR$/camodal/camodal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camodal/css/light.css" beforeDir="false" afterPath="$PROJECT_DIR$/camodal/css/light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camodal/modals.html" beforeDir="false" afterPath="$PROJECT_DIR$/camodal/modals.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/aireobook.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aireobook.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aimodal/yt/YtMmodal.js" beforeDir="false" afterPath="$PROJECT_DIR$/aimodal/yt/YtMmodal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/ytlink/ytlink.html" beforeDir="false" afterPath="$PROJECT_DIR$/programs/ytlink/ytlink.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +79,8 @@
       <workItem from="1616652098921" duration="10330000" />
       <workItem from="1616670250214" duration="13089000" />
       <workItem from="1616739997657" duration="8529000" />
-      <workItem from="1616768945673" duration="24247000" />
+      <workItem from="1616768945673" duration="26728000" />
+      <workItem from="1616828657732" duration="555000" />
     </task>
     <servers />
   </component>
