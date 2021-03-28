@@ -760,7 +760,7 @@ ul li {
 
 
     bottom: 0px;
-    width: 100%;
+    /*width: 100%;*/
     /*backdrop-filter: blur(12px);*/
     /* background: #f0f8ff00; */
     color: wheat;
