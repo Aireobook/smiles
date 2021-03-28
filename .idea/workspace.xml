@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8f0e886-83e1-490c-ab22-cd3fa0c5c008" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/yt/quLdKB6oJfg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aimodal/yt/YtMmodal.js" beforeDir="false" afterPath="$PROJECT_DIR$/aimodal/yt/YtMmodal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +80,11 @@
       <workItem from="1616670250214" duration="13089000" />
       <workItem from="1616739997657" duration="8529000" />
       <workItem from="1616768945673" duration="26728000" />
-      <workItem from="1616828657732" duration="555000" />
+      <workItem from="1616828657732" duration="1188000" />
+      <workItem from="1616839246160" duration="4125000" />
+      <workItem from="1616856522015" duration="5153000" />
+      <workItem from="1616892416967" duration="4412000" />
+      <workItem from="1616913152622" duration="1276000" />
     </task>
     <servers />
   </component>
