@@ -507,6 +507,16 @@ ul, li {
 
 
 
+#footer.plexi3{
+
+    border: 1px solid #34343433;
+    box-shadow: none;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+
 
 .br7{
     height: 7px;

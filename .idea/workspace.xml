@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8f0e886-83e1-490c-ab22-cd3fa0c5c008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/yt/9ng3fUQVuA8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/yt/ZVF5x-YzUBY.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/yt/wE01JoR6B3U.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camodal/css/camodal.css" beforeDir="false" afterPath="$PROJECT_DIR$/camodal/css/camodal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/aireobook.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aireobook.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +87,8 @@
       <workItem from="1616892416967" duration="4412000" />
       <workItem from="1616913152622" duration="1276000" />
       <workItem from="1616926598947" duration="194000" />
-      <workItem from="1616927486966" duration="2155000" />
+      <workItem from="1616927486966" duration="3826000" />
+      <workItem from="1616934886474" duration="312000" />
     </task>
     <servers />
   </component>
