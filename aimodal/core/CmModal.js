@@ -278,7 +278,7 @@ class CmModal {
             document.getElementById('title-' + this.id ).innerHTML = button.dataset.title;
 
         }else{
-            document.getElementById('title-' + this.id ).innerHTML = '<div class="adver"> Wodpress plugin available on the link:  &nbsp;<a class="link-js" href="http://google.pl">AIREOBOOK</a> </div>';
+            document.getElementById('title-' + this.id ).innerHTML = '<div class="adver"> Wodpress plugin available on the link:  &nbsp;<a class="link-js" href="https://aireobook.github.io/smiles/">AIREOBOOK</a> </div>';
         }
     };
 
