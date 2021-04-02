@@ -16,12 +16,12 @@ body[data-template="template1"].blur .plexi3{
 
 /***************************************   background 2  ***************************************/
 body[data-template="template2"]{
-    background-image: url(../img/bg/b2.jpg);
+    background-image: url(../img/bg/b4.jpg);
 
 }
 
 body[data-template="template2"].blur .plexi3{
-    background-image: url(../img/bg/bb2.jpg);
+    background-image: url(../img/bg/b4r.jpg);
 }
 
 

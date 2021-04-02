@@ -3,21 +3,12 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700);
 
 :root {
-    /*--image-bg:   url(../img/bg/b11c2c.jpg);*/
-    /*--image-bg-blend:  url(../img/bg/b11c2b2.jpg);*/
 
-    /*--image-bg:  url(../img/bg/bg1.jpg);*/
-    /*--image-bg-blend:  url(../img/bg/bg1_g.jpg);*/
 
 }
 
 
-/*.bgimage{*/
-/*    --bgimage: url(../img/bg/b11c2c.jpg);*/
-/*}*/
-/*.bgblur{*/
-/*    --bgblur:  url(../img/bg/b11c2b2.jpg);*/
-/*}*/
+
 
 
 @keyframes slideInFromLeft {
