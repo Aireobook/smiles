@@ -32,7 +32,7 @@
 
 (function () {
 
-    function compositartInitModal(button_class, modals_page = 'camodal/modals.html') {
+    function compositartInitModal(button_class, modals_page = 'modals/modals.html') {
 
         window.addEventListener('DOMContentLoaded', function () {
 
