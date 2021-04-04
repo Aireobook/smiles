@@ -1,0 +1,65 @@
+.mcl{
+    color: black;
+}
+
+.mcl.right {
+    display: none;
+    /* bottom: 0; */
+    width: 100%;
+    /* top: 0; */
+    /* position: fixed; */
+    /* left: 0; */
+    height: 100%;
+    /* outline: 0; */
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
+    z-index: 1050;
+    overflow: hidden;
+    z-index: 1050;
+    position: fixed;
+    top: 0;
+    /* right: -400px; */
+}
+
+
+
+.mcl.right .travel{
+    max-width: 600px;
+    /* margin: 1.75rem auto; */
+    position: absolute;
+    right: 2px;
+}
+
+
+.mcl.right .camodal-content {
+    height: 100vh;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: .3rem;
+    outline: 0;
+    -webkit-box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+
+}
+
+.mcl.right .camodal-content {
+    background-color: #c5e3e2c7;
+    backdrop-filter: blur(11px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.mcl.right .close{
+    position: relative;
+    top: -1px;
+    /*right: 23px;*/
+}

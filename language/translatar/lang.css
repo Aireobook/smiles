@@ -13,3 +13,88 @@
     transition: all .5s;
     cursor: pointer;
 }
+.ai-tranlator {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: inherit;
+    position: relative;
+    /* top: 23px; */
+    line-height: 23px;
+    height: 23px;
+    width: 200px;
+}
+.ai-tranlator p{
+    padding-right: 23px;
+    /*height: 23px;*/
+}
+
+.translation{
+    display: initial;
+}
+
+
+.flags{
+    height: 23px;
+    position: relative;
+    padding: 2px 3px;
+    width: fit-content;
+    transition: all .4s;
+    color: #a5d7d6;
+}
+.flags:hover{
+    color: #ffe79e;
+    /*transform: scale(1.1);*/
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.dropdown{
+    padding-top: 5px;
+}
+
+.flages img{
+    padding-top: 5px;
+}
+.language-switch{
+    font-size: 14px;
+
+    position: relative;
+    top: -3px;
+    padding: 2px;
+
+}
+
+.flages{
+    padding: 0 12px;
+    position: relative;
+    top: -2px;
+    cursor: pointer;
+}
+.flags img{
+    margin-right: 12px;
+}
+
+
+.flags img{
+    transform: scale(1);
+    transition: all .4s;
+    box-shadow: 2px 2px 5px #0000004d;
+}
+.flags img:hover{
+    transform: scale(1.2);
+    transition: all .4s;
+}
+
+.ai-languages{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 33px;
+    background: #00000054;
+    padding: 16px;
+}
+
+
+

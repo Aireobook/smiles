@@ -75,9 +75,14 @@
             function inBtnClickInitModal(e){
                 e.stopPropagation();
 
+                console.log('button', button)
+
                 let modal_open_id = button.dataset.id;
 
             // let caConfig = document.getElementById('ceconfig');
+
+
+
                 let caConfig = document.getElementById(modal_open_id);
                 caConfig.style.display = "block";
 

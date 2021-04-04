@@ -1,0 +1,30 @@
+.mcl.center .travel {
+    position: relative;
+    width: auto;
+    margin: .5rem;
+    pointer-events: none;
+}
+
+
+@media (min-width: 576px){
+   .mcl.center .travel {
+        max-width: 500px;
+        margin: 1.75rem auto;
+    }
+}
+
+@media (min-width: 992px){
+    .mcl.center.modal-lg .travel {
+        max-width: 600px;
+    }
+    .mcl.center.modal-xl .travel {
+        max-width: 800px;
+    }
+
+}
+
+
+
+.center .camodal-content {
+    top: 90px;
+}

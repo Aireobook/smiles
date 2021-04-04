@@ -1,0 +1,78 @@
+[
+  {
+    "en":"Language",
+    "pl": "Язык"
+  },
+  {
+    "en":"License",
+    "pl": "Лицензия"
+  },
+  {
+    "en":"About",
+    "pl": "О"
+  },
+  {
+    "en":"Practical programs of all kinds, skill and games.",
+    "pl": "Практические программы всех видов, навыков и игр."
+  },
+  {
+    "en":"Examples <br> of using Wordpress plugins from the Compositart plugin family",
+    "pl": "«Примеры <br> использования плагинов Wordpress из семейства плагинов Compositart»"
+  },
+  {
+    "en":"The compositart-youtube plugin allows you to display YouTube videos. A series of buttons on the bottom bar of the window take you to your family YouTube site, zoom in on the window, and more.<br> The window is closed by clicking the cross in the upper right corner. Clicking anywhere on the desktop outside of the pane closes the movie pauses and closes the pane. This means that after such closing, the movie can be resumed at the point of the pause. It's also a good practice to wrap the link image, like here. You can insert a video button anywhere in the text.",
+    "pl": "Плагин compositart-youtube позволяет отображать видео с YouTube. Последовательность кнопок на нижней панели окна позволяет перейти на семейный сайт YouTube, увеличить масштаб окна и многое другое. <br> Окно закрывается нажатием крестика в правом верхнем углу. Щелчок в любом месте рабочего стола за пределами панели закрывает фильм, приостанавливает и закрывает панель. Это означает, что после такого закрытия фильм может быть возобновлен с момента паузы. Также рекомендуется обернуть изображение ссылки, как здесь. Вы можете вставить кнопку видео в любом месте текста."
+  },
+  {
+    "en":"Example:",
+    "pl": "Пример"
+  },
+  {
+    "en":"Obviously, you have to get a bit of a fist with css, but I suppose that people who want to use our programs have sufficient knowledge of this programming language.",
+    "pl": "Очевидно, вам нужно немного повозиться с css, но я полагаю, что люди, которые хотят использовать наши программы, имеют достаточные знания этого языка программирования."
+  },
+  {
+    "en":"The size of the linking image can be freely changed:",
+    "pl": "Размер связующего изображения можно свободно изменять:"
+  },
+  {
+    "en":"such:",
+    "pl": "такой"
+  },
+  {
+    "en":"or such:",
+    "pl": "или такой:"
+  },
+  {
+    "en":"You can also run a video from a text link:",
+    "pl": "Вы также можете запустить видео по текстовой ссылке:"
+  },
+  {
+    "en":"Greeicy Yeliana Rendón Ceballos (born October 30, 1992) is a Colombian actress and singer",
+    "pl": "Грииси Йелиана Рендон Себальос (родилась 30 октября 1992 года) - колумбийская актриса и певица."
+  },
+  {
+    "en":"Exaited - Polish disco polo band. It was established in 2006 on the initiative of Agnieszka Drewnicka and Tomasz Sidoruk.",
+    "pl": "___"
+  },
+  {
+    "en":"Diskotieka Awarija - Russian music group playing music from rap, hip-hop, pop and rock, founded in 1996 in Ivanovo",
+    "pl": "___"
+  },
+  {
+    "en":"Magda Durecka (born March 3, 1967 in Kluczbork) - Polish singer and songwriter.",
+    "pl": "___"
+  },
+  {
+    "en":"Leo Rojas came from his native country to Spain in 2000, while his family stayed in Ecuador. He currently lives with his Polish wife in Berlin",
+    "pl": "___"
+  },
+  {
+    "en":"Elen Cora is a singer performing in the styles of Italo Disco, Euro Disco and Russian Disco. Elen Cora lives in Novosibirsk, Russia, and is the voice of Siberian Heat, Elen Cora, and Studiya-80 projects.",
+    "pl": "Элен Кора - певица, выступающая в стилях Italo Disco, Euro Disco и Russian Disco. Элен Кора живет в Новосибирске, Россия, и является голосом проектов «Сибирская жара», «Элен Кора» и «Студия-80»."
+  },
+  {
+    "en":" Sample images. Trochę zdjęć ze stajni P.E.Asgarniana",
+    "pl": "___"
+  }
+]

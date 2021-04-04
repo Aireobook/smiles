@@ -1,23 +1,27 @@
 [
   {
-    "en":"anchorr.",
-    "pl": "___"
+    "en":"Language",
+    "pl": "Język"
+  },
+  {
+    "en":" License",
+    "pl": "Licencja"
+  },
+  {
+    "en":"About",
+    "pl": "O"
   },
   {
     "en":"Practical programs of all kinds, skill and games.",
-    "pl": "___"
+    "pl": "Praktyczne programy wszelkiego rodzaju, zręcznościowe i gry."
   },
   {
-    "en":"Examples of using Wordpress plugins from the Compositart plugin family",
-    "pl": "Przykłady użycia wtyczek Wordpress z rodziny wtyczek Compositart"
+    "en":"Examples <br> of using Wordpress plugins from the Compositart plugin family",
+    "pl": "Przykłady <br> użycia wtyczek Wordpress z rodziny wtyczek Compositart"
   },
   {
-    "en":"The compositart-youtube plugin allows you to display YouTube videos. A series of buttons on the bottom bar of the window take you to your family YouTube site, zoom in on the window, and more.",
-    "pl": "Wtyczka compositart-youtube umożliwia wyświetlanie filmów z YouTube. Seria przycisków na dolnym pasku okna przenosi Cię do Twojej rodzinnej witryny YouTube, powiększa okno i nie tylko."
-  },
-  {
-    "en":"The window is closed by clicking the cross in the upper right corner. Clicking anywhere on the desktop outside of the pane closes the movie pauses and closes the pane. This means that after such closing, the movie can be resumed at the point of the pause. It's also a good practice to wrap the link image, like here. You can insert a video button anywhere in the text.",
-    "pl": "Okno zamyka się, klikając krzyżyk w prawym górnym rogu. Kliknięcie w dowolnym miejscu na pulpicie poza panelem powoduje zamknięcie filmu, wstrzymanie i zamknięcie panelu. Oznacza to, że po takim zamknięciu film można wznowić w momencie wstrzymania. Dobrą praktyką jest również zawijanie obrazu linku, jak tutaj. Możesz wstawić przycisk wideo w dowolnym miejscu w tekście."
+    "en":"The compositart-youtube plugin allows you to display YouTube videos. A series of buttons on the bottom bar of the window take you to your family YouTube site, zoom in on the window, and more.<br> The window is closed by clicking the cross in the upper right corner. Clicking anywhere on the desktop outside of the pane closes the movie pauses and closes the pane. This means that after such closing, the movie can be resumed at the point of the pause. It's also a good practice to wrap the link image, like here. You can insert a video button anywhere in the text.",
+    "pl": "Wtyczka compositart-youtube umożliwia wyświetlanie filmów z YouTube. Seria przycisków na dolnym pasku okna prowadzi do Twojej rodzinnej witryny YouTube, powiększania okna i nie tylko. <br> Okno zamyka się, klikając krzyżyk w prawym górnym rogu. Kliknięcie w dowolnym miejscu na pulpicie poza panelem powoduje zamknięcie filmu, wstrzymanie i zamknięcie panelu. Oznacza to, że po takim zamknięciu film można wznowić w momencie wstrzymania. Dobrą praktyką jest również zawijanie obrazu linku, jak tutaj. Możesz wstawić przycisk wideo w dowolnym miejscu w tekście."
   },
   {
     "en":"Example:",
@@ -37,15 +41,11 @@
   },
   {
     "en":"or such:",
-    "pl": "lub taki"
+    "pl": "lub takie:"
   },
   {
     "en":"You can also run a video from a text link:",
     "pl": "Możesz także uruchomić wideo z linku tekstowego:"
-  },
-  {
-    "en":"text link to the video",
-    "pl": "link tekstowy do filmu"
   },
   {
     "en":"Greeicy Yeliana Rendón Ceballos (born October 30, 1992) is a Colombian actress and singer",
@@ -65,18 +65,14 @@
   },
   {
     "en":"Leo Rojas came from his native country to Spain in 2000, while his family stayed in Ecuador. He currently lives with his Polish wife in Berlin",
-    "pl": "Leo Rojas przyjechał ze swojego rodzinnego kraju do Hiszpanii w 2000 roku, podczas gdy jego rodzina przebywała w Ekwadorze. Obecnie mieszka z żoną Polką w Berlinie"
+    "pl": "Leo Rojas przyjechał ze swojego rodzinnego kraju do Hiszpanii w 2000 roku, podczas gdy jego rodzina została w Ekwadorze. Obecnie mieszka z żoną Polką w Berlinie"
   },
   {
     "en":"Elen Cora is a singer performing in the styles of Italo Disco, Euro Disco and Russian Disco. Elen Cora lives in Novosibirsk, Russia, and is the voice of Siberian Heat, Elen Cora, and Studiya-80 projects.",
     "pl": "Elen Cora to piosenkarka występująca w stylach Italo Disco, Euro Disco i Russian Disco. Elen Cora mieszka w Nowosybirsku w Rosji i jest głosem projektów Siberian Heat, Elen Cora i Studiya-80."
   },
   {
-    "en":"Sample images. Trochę zdjęć ze stajni P.E.Asgarniana",
+    "en":" Sample images. Trochę zdjęć ze stajni P.E.Asgarniana",
     "pl": "Przykładowe obrazy. Trochę zdjęć ze stajni P.E. Asgarniana"
-  },
-  {
-    "en":"Language",
-    "pl": "Język"
   }
 ]

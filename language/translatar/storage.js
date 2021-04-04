@@ -1,42 +1,48 @@
 
 document.addEventListener('DOMContentLoaded', () => {
-// document.addEventListener('load', () => {
-
-// alert(33);
 
 
-
-       console.log("get_language", get_language());
 
     if (get_language() !== null ){
         let actual = document.getElementById('actual-language');
         actual.src = "img/flags/" + get_language() +".png";
-        // console.log("get language", get_language());
 
-        // language(get_language());
+        if (get_language()) {
+            set_language(get_language());
+            let actual = document.getElementById('actual-language');
+            actual.src = "img/flags/" + get_language() + ".png";
+            InitTranlatar();
+        }
+
+
     }
 
-
-
-   let storage = get_language();
 
 
     let anchors = document.querySelectorAll(".flags");
 
     for(let anchor of anchors ){
 
-        anchor.onclick = () => {
+        anchor.addEventListener('click', flagsClicked, false);
+
+        function flagsClicked(){
+
 
             if (anchor.dataset.lang) {
-                if (anchor.dataset.lang === 'reset'){
-                    remove_language('poland');
-                }else{
-                    set_language(anchor.dataset.lang);
-                        let actual = document.getElementById('actual-language');
-                        actual.src = "img/flags/" + get_language() + ".png";
-                        InitTranlatar();
-                }
+                set_language(anchor.dataset.lang);
+                let actual = document.getElementById('actual-language');
+                actual.src = "img/flags/" + get_language() + ".png";
+                InitTranlatar();
             }
+
+        }
+
+
+
+
+        anchor.onclick = () => {
+
+
         }
     }
 
@@ -52,10 +58,6 @@ function set_language(lang){
 
 function get_language(){
     return localStorage.getItem('lang')
-}
-
-function reload_page(){
-    window.location.reload();
 }
 
 

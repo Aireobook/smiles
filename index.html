@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="css/aireobook.css" />
     <link rel="stylesheet" href="css/front.css" />
     <link rel="stylesheet" href="css/scrollbar.css" />
-    <link rel="stylesheet" href="translater/translater.css" />
-    <script src="translater/translater.js"></script>
-    <script>compositartInitTranslater()</script>
+
+
+
     <script src="js/lang.js"></script>
     <script src="camodal/camodal.js"></script>
 
@@ -27,7 +27,12 @@
     </script>
     <script src="camodal/entered/entered.js"></script>
     <link rel="stylesheet" href="css/templates.css">
+    <link rel="stylesheet" href="language/translatar/lang.css">
+    <script src="language/translatar/lang.js"></script>
 
+    <script src="language/translatar/storage.js"></script>
+    <script src="language/translatar/translatar.js"></script>
+<!--    <script src="translaterViewer/translaterViewer.js"></script>-->
 
 
 </head>
@@ -60,13 +65,13 @@
 
                         <div class="dropdown d-inline-block language-switch">
                             <div style="display: flex">
-                                <span class="__t">Language</span>
+                                <span data-t="language">Language</span>
                                 <div id="btn-lang" class="" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                     <div class="flages" ><img id="actual-language" src="img/flags/en.png" width="23" alt="image" />  </div>
                                 </div>
                             </div>
 
-                            <div class="dropdown-menu dropdown-menu-end show" style="" data-popper-placement="bottom-end">
+                            <div class="dropdown-menu dropdown-menu-end show dm-display-none " style="" data-popper-placement="bottom-end">
                                                         <div id="flag-colombia"  data-lang ="co"  title="Colombia"  class="flags  padding-left-20" ><img src="img/flags/co.png" width="23" />Colombia</div>
                                                         <div id="flag-poland"    data-lang ="pl"  title="Poland"    class="flags  padding-left-20" ><img src="img/flags/pl.png" width="23" />Poland</div>
                                                         <div id="flag-russia"    data-lang ="ru"  title="Russia"    class="flags  padding-left-20" ><img src="img/flags/ru.png" width="23" />Russia</div>
@@ -82,18 +87,18 @@
 
                         <div class="dropdown d-inline-block">
 
-                                <div class="caButton js-btn" data-id="celicense"  data-toggle="modal1111111___" data-type="default" ><i class="far fa-address-card"></i> License</div>
+                            <div class="caButton js-btn" data-id="celicense"    ><i class="far fa-address-card"></i><span data-t="">License</span></div>
 
                         </div>
 
 
                         <div class="dropdown d-inline-block">
-                            <div class="caButton js-btn" data-id="ceoption"  data-toggle="modal1111111___" data-type="default" ><i class="far fa-address-card"></i> About</div>
+                            <div id="modal-config1" class="caButton js-btn" data-id="mcl-config"    ><i class="fa fa-cog" aria-hidden="true"></i><span data-t="">About</span></div>
                         </div>
 
                         &nbsp;
                         <div class="dropdown d-inline-block">
-                            <div id="modal-config" class="caButton js-btn" data-id="ceconfig"  data-toggle="modal1111111___" data-type="default" ><i class="fa fa-cog" aria-hidden="true"></i>Config</div>
+                            <div id="modal-config" class="caButton js-btn" data-id="ceconfig"    ><i class="fa fa-cog" aria-hidden="true"></i>Config</div>
 
                         </div>
 
@@ -129,7 +134,7 @@
 
 
                                      <li class=""><a href="https://aireobook.github.io/programs/"><i class="fas fa-book"></i>Programs</a>
-                                        <span class="text-linked ai-text2"><p  id="tt" class="__t">Practical programs of all kinds, skill and games.</p></span>
+                                        <span class="text-linked ai-text2"><p  id="tt" class="" data-t="t_04">Practical programs of all kinds, skill and games.</p></span>
                                      </li>
 
 
@@ -148,33 +153,31 @@
 
             <section class="plexi3 title-yellow">
                 <div class="container-xxl en-treek-38">
-                    <h2 class="__t">Examples of using Wordpress plugins from the Compositart plugin family</h2>
-                    <p>
+                    <h2 class=""><span data-t="texaple">Examples <br> of using
+                        Wordpress plugins from the Compositart plugin family</span></h2>
+<br>
+<!--                 youtube th img -->
+                    <div class=" float-left mr15 bmodal70 link-div video-play " data-videocode="5TG4PZUMoYY" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480'> <img class="link-image" src="img/yt/5TG4PZUMoYY.jpg" alt=""/> </div>
 
-
-                    <div class=" float-left mr15 bmodal70 link-div video-play " data-videocode="5TG4PZUMoYY" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480'>
-                        <img class="link-image" src="img/yt/5TG4PZUMoYY.jpg" alt=""/>
-                    </div>
-
-                    <span class="__t">The compositart-youtube plugin allows you to display YouTube videos. A series of buttons on the bottom bar of the window take you to your family YouTube site, zoom in on the window, and more.</span><br>
-                    <span class="__t">The window is closed by clicking the cross in the upper right corner. Clicking anywhere on the desktop outside of the pane closes the movie pauses and closes the pane. This means that after such closing, the movie can be resumed at the point of the pause.
+                    <span class="" data-t="t_02">The compositart-youtube plugin allows you to display YouTube videos. A series of buttons on the bottom bar of the window take you to your family YouTube site, zoom in on the window, and more.<br>
+                   The window is closed by clicking the cross in the upper right corner. Clicking anywhere on the desktop outside of the pane closes the movie pauses and closes the pane. This means that after such closing, the movie can be resumed at the point of the pause.
                         It's also a good practice to wrap the link image, like here. You can insert a video button anywhere in the text.</span>
-                    </p>
 
-                    <p><span class="__t">Example:</span>
+
+                    <p><span data-t="Example">Example:</span>
                         <span  class="lw50  ">
                             <img class="world"  data-videocode="cTfxennz3xU"  data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' src="img/yt/cTfxennz3xU.jpg" alt="przykład oblewania tekstem" >
                         </span>
-                        <span class="__t">Obviously, you have to get a bit of a fist with css, but I suppose that people who want to use our programs have sufficient knowledge of this programming language.</span>
+                        <span class="" data-t="t-06">Obviously, you have to get a bit of a fist with css, but I suppose that people who want to use our programs have sufficient knowledge of this programming language.</span>
                    </p>
-                    <p><span class="__t">The size of the linking image can be freely changed:</span>
+                    <p><span class="" data-t="t-08">The size of the linking image can be freely changed:</span>
                          <span class="lw70">  <img  class="world"  data-videocode="2grQUgf8260" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' src="img/yt/2grQUgf8260.jpg" alt="przykład oblewania tekstem" ></span>
-                      <span class="__t">such:</span>
+                      <span class="" data-t="t-10">such:</span>
                          <span class="lw50"><img  class="world" data-videocode="L6dx0pO5MSw" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' src="img/yt/L6dx0pO5MSw.jpg" alt="przykład oblewania tekstem" ></span>
-                        <span class="__t">or such:</span>
+                        <span class="" data-t="t-12">or such:</span>
                          <span class="lw40"><img  class="world" data-videocode="xHnntPaQB7Q" data-title="" data-footer="footer2"  data-type="standard" data-width="427" data-height='240' src="img/yt/xHnntPaQB7Q.jpg" alt="przykład oblewania tekstem" ></span>
-                        <span class="__t">You can also run a video from a text link:</span>
-                          <span  class=" link-js world "  data-videocode="lbLhDxDk64U"    data-type="standard" data-width="1024" data-height="576"><i class="__t">text link to the video</i></span>
+                        <span class="" data-t="t-14">You can also run a video from a text link:</span>
+                          <span  class=" link-js world "  data-videocode="lbLhDxDk64U"    data-type="standard" data-width="1024" data-height="576"><i class="">text link to the video</i></span>
                       </p>
                     </div>
                 </section>
@@ -194,7 +197,7 @@
                 </div>
                     <br>
                 <p>
-                    <span class="__t">Greeicy Yeliana Rendón Ceballos (born October 30, 1992) is a Colombian actress and singer</span>
+                    <span class="" data-t="t-16">Greeicy Yeliana Rendón Ceballos (born October 30, 1992) is a Colombian actress and singer</span>
                     <span class="float-right"><a target="_blank" href="https://www.youtube.com/results?search_query=Greeicy+Yeliana">more...</a> </span>
                 </p>
             </div>
@@ -206,7 +209,7 @@
                 </div>
                 <br>
                 <p>
-                    <span class="__t">Exaited - Polish disco polo band. It was established in 2006 on the initiative of Agnieszka Drewnicka and Tomasz Sidoruk.</span>
+                    <span class="" data-t="t-18">Exaited - Polish disco polo band. It was established in 2006 on the initiative of Agnieszka Drewnicka and Tomasz Sidoruk.</span>
                     <span class="float-right"><a target="_blank" href="https://www.youtube.com/results?search_query=Exaited">more...</a> </span>
                 </p>
             </div>
@@ -218,7 +221,7 @@
                 </div>
                 <br>
                 <p>
-                    <span class="__t">Diskotieka Awarija - Russian music group playing music from rap, hip-hop, pop and rock, founded in 1996 in Ivanovo</span>
+                    <span class="" data-t="t-20">Diskotieka Awarija - Russian music group playing music from rap, hip-hop, pop and rock, founded in 1996 in Ivanovo</span>
                     <span class="float-right"><a target="_blank" href="https://youtu.be/AsMTTh5Z1j8">more...</a> </span>
                 </p>
             </div>
@@ -238,7 +241,7 @@
              </div>
              <br>
              <p>
-                 <span class="__t">Magda Durecka (born March 3, 1967 in Kluczbork) - Polish singer and songwriter.</span>
+                 <span class="__t" data-t="t-22">Magda Durecka (born March 3, 1967 in Kluczbork) - Polish singer and songwriter.</span>
                  <span class="float-right"><a target="_blank" href="https://www.youtube.com/results?search_query=Magda+Durecka">more...</a> </span>
              </p>
          </div>
@@ -254,7 +257,7 @@
              </div>
              <br>
              <p>
-                 <span class="__t">Leo Rojas came from his native country to Spain in 2000, while his family stayed in Ecuador. He currently lives with his Polish wife in Berlin</span>
+                 <span class="__t" data-t="t-24">Leo Rojas came from his native country to Spain in 2000, while his family stayed in Ecuador. He currently lives with his Polish wife in Berlin</span>
                  <span class="float-right"><a target="_blank" href="https://www.youtube.com/results?search_query=Leo+Rojas">more...</a> </span>
              </p>
          </div>
@@ -265,7 +268,7 @@
                 </div>
                 <br>
                 <p>
-                    <span class="__t">Elen Cora is a singer performing in the styles of Italo Disco, Euro Disco and Russian Disco. Elen Cora lives in Novosibirsk, Russia, and is the voice of Siberian Heat, Elen Cora, and Studiya-80 projects.</span>
+                    <span class="__t" data-t="t-26">Elen Cora is a singer performing in the styles of Italo Disco, Euro Disco and Russian Disco. Elen Cora lives in Novosibirsk, Russia, and is the voice of Siberian Heat, Elen Cora, and Studiya-80 projects.</span>
                     <span class="float-right"><a target="_blank" href="https://www.youtube.com/results?search_query=Siberian+heat">more...</a> </span>
                 </p>
             </div>
@@ -276,7 +279,7 @@
         <section class="plexi3 ">
                     <div class="container-xxl">
                         <div class="tic-tac">
-                        <h2 class="__t">Sample images. Trochę zdjęć ze stajni P.E.Asgarniana</h2>
+                            <h2> <span data-t="t-28"> Sample images. Trochę zdjęć ze stajni P.E.Asgarniana</span></h2>
 
                             <div class="areea">
                                 <div data-doc="wstaw1" data-title="image.jpg"  data-image="img/foto/a201.jpg" class="imager" ><img   class="link-th" src="img/foto/a201_th.jpg" alt="Girl in a jacket"></div>
@@ -553,8 +556,6 @@
                      </div>
 
 
-
-
                      <div class="mr15 bmodal70 link-div video-play" data-videocode="1ZYbU82GVz4" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
                          <img class="foto" src="img/yt/1ZYbU82GVz4.jpg" alt="No image">
                      </div>
@@ -564,26 +565,6 @@
              </div>
 
          </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         <section class="plexi3">
@@ -747,7 +728,7 @@
 
 
 
-    <script  src="translater/storage.js"></script>
+
 
     <script  src="js/front_init.js"></script>
 <!--    <script src="prism/prism_coy.js"></script>-->
@@ -766,6 +747,11 @@
 <!--    <script type="text/javascript" src="translate/ajaxpage.js"></script>-->
 
 </small>
+
+<script>
+
+</script>
+
 
 </body>
 </html>
