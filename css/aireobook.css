@@ -1,10 +1,7 @@
 
-
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700);
 
 :root {
-
-
 }
 
 .js-btn {
@@ -14,7 +11,6 @@
 .js-btn i{
     padding-right: 5px;
 }
-
 
 @keyframes slideInFromLeft {
     0% {
@@ -44,26 +40,6 @@
     grid-template-columns: repeat(auto-fill, minmax(160px,1fr));
     grid-gap:1em;
 }
-
-
-
-
-/*.front .content-header{*/
-/*    position: fixed;*/
-/*    z-index: 1000;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    padding-left: 12px;*/
-/*    border-bottom: 1px solid #0000004d;*/
-/*    box-shadow: 0 7px 12px #0000004d;*/
-/*    margin-bottom: 32px;*/
-/*    background-image: url(../img/bg/b11c2b2.jpg);*/
-/*    background-repeat: no-repeat;*/
-/*    background-attachment: fixed;*/
-/*    background-position: center;*/
-/*    background-size: cover;*/
-/*    width: 100%;*/
-/*}*/
 
 .front #aiwrapper {
     padding-left: 0;
@@ -134,9 +110,6 @@
     margin-left: 7px;
     box-shadow: 4px 4px 17px #00000085;
     animation: .4s ease-out 0s 1 slideInFromLeft;
-    /*background-image: url(../img/bg/b11c2b2.jpg);*/
-    /*background-image: var(--image-bg-blend);*/
-
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -155,21 +128,11 @@
     padding: 2px;
 }
 
-
-
-
 #navbar {
-    /*background-color: #333;*/
     position: fixed;
     top: 0;
-    /*width: 100%;*/
-    /*display: block;*/
     transition: top .7s;
 }
-
-
-
-
 
 .link-image-div{
     overflow: hidden;
@@ -207,21 +170,12 @@
     cursor: pointer;
 }
 
-
-
-
-
-
 body{
     font-family: Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
-    /*background-image: url(https://raw.githubusercontent.com/Aireobook/smiles/main/img/bg/b11c2c.jpg);*/
-    background-image: var(--image-bg);
-    /*background-image:  url(../img/bg/bg1.jpg);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-
 }
 a {
     color: #0d6efd;
@@ -247,11 +201,6 @@ a {
     margin-left: auto;
 }
 
-
-.aib img{
-    /*font-size: 0;*/
-}
-
 .link-th{
     width: 70px;
     box-shadow: 3px 3px 6px #00000073;
@@ -272,9 +221,7 @@ a {
     transition: all .5s;
 }
 .padding-left-20{
-    /*position: relative;*/
     padding-right: 20px;
-
 }
 
 .link-js:hover{
@@ -288,7 +235,6 @@ a {
 .front a.link-js{
     line-height: inherit;
     font-size: 1rem;
-    /*float: right;*/
 }
 
 .text-linked{
@@ -296,15 +242,6 @@ a {
     position: absolute;
     left: 256px;
 }
-/*.none{*/
-/*    display: none;*/
-/*}*/
-/*.flex{*/
-/*    display: flex;*/
-/*}*/
-/*.text-start {*/
-/*    text-align: left !important;*/
-/*}*/
 
 .text-end {
     text-align: right !important;
@@ -360,9 +297,6 @@ a {
     }
 }
 
-
-
-
 .ai-text1{
     color: #e6c17c;
 }
@@ -386,21 +320,13 @@ ul, li {
 
 .peent{
     font-family: Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
-    /* font-weight: 100; */
     border: 1px;
     border-style: outset;
     border-color: rgba(0, 0, 0, .14);
-    /*color: #000000;*/
     padding: 14px;
-    /*backdrop-filter: blur(11px);*/
-    background: #00000029;
     margin-bottom: 22px;
     box-shadow: 5px 5px 10px #00000021;
     background: #00000005;
-}
-.peent p{
-    /*text-shadow: 2px 2px 3px #00000023;*/
-    /*padding: 14px 20px;*/
 }
 .peent h3{ border-bottom: 1px solid #00000023; }
 
@@ -428,30 +354,21 @@ ul, li {
 .peent4 p{ text-shadow: 2px 2px 3px #00000023;}
 .peent4 h3{ text-shadow: 2px 2px 3px #00000038;}
 
-.kaskada{
 
-}
 .admiral-areen{
     display: flex;
     justify-content: flex-start;
     color: #fff0c2;
 }
 .admiral-areen > div {
-    /*flex-basis: 400px;*/
-
     flex:1 1 400px;
-    /*border:1px #ff0000 solid;*/
     text-align:center;
-
     margin:5px;  /* and that, will result in a 10px gap */
 }
 
 .plexi1, .plexi1{
     animation: .4s ease-out slideInTreek;
     animation-delay: -.1s;
-    /*background: #00000069;*/
-    /*background-image: url(../img/bg/b11c2b2.jpg);*/
-    /*background-image: var(--image-bg-blend);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -465,8 +382,6 @@ ul, li {
     animation: .4s ease-out slideInTreek;
     animation-delay: -.3s;
     background: #00000069;
-    /*background-image: url(../img/bg/b11c2b2.jpg);*/
-    /*background-image: var(--image-bg-blend);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     box-shadow: inset 0px 0px 11px #ffffff42, 4px 4px 17px #00000085;
@@ -480,39 +395,24 @@ ul, li {
      animation: .4s ease-out slideInTreek;
      animation-delay: -.3s;
      background: #0000008f;
-     /* background-image: url(../img/bg/b11c2b2.jpg); */
-     /* background-image: var(--image-bg-blend); */
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     /* box-shadow: inset 4px 5px 12px #ffffff24, 4px 4px 17px #000000; */
-     /* width: fit-content; */
      padding: 23px;
      border: 1px solid #34343433;
      box-shadow: 1px 1px 21px #00000057;
      margin-top: 50px;
      margin-bottom: 50px;
-     background-position: center;
-     background-size: cover;
-
      background-repeat: no-repeat;
      background-attachment: fixed;
      background-position: center;
      background-size: cover;
  }
 
-
-
-
 #footer.plexi3{
-
-    border: 1px solid #34343433;
+    border: 1px solid #00000045;
+    background: #00000078;
     box-shadow: none;
     margin-top: 0;
     margin-bottom: 0;
-
 }
-
-
 
 .br7{
     height: 7px;
@@ -520,7 +420,6 @@ ul, li {
 .parent-center-h{
     display: block;
 }
-
 
 .center-h {
     display: block;
@@ -1448,7 +1347,6 @@ select option{
 }
 
 
-
 .header-item {
     height: 70px;
     -webkit-box-shadow: none!important;
@@ -1474,23 +1372,19 @@ select option{
     position: absolute;
     top: 100%;
     z-index: 1000;
-    /*display: none;*/
     min-width: 10rem;
     padding: .5rem 0;
     margin: 0;
     font-size: .9rem;
-
     text-align: left;
     list-style: none;
-
     background-clip: padding-box;
     border: 0 solid rgba(0,0,0,.15);
     border-radius: .25rem;
-
 }
+
 .dropdown-menu {
     -webkit-box-shadow: 0 2px 4px rgb(15 34 58 / 12%);
-    box-shadow: 0 2px 4px rgb(15 34 58 / 12%);
     -webkit-animation-name: DropDownSlide;
     animation-name: DropDownSlide;
     -webkit-animation-duration: .3s;
@@ -1501,21 +1395,12 @@ select option{
     position: absolute;
     z-index: 1000;
     left: auto!important;
-    /*right: 0!important;*/
     color: #ffffff;
-
-    background-image: linear-gradient(
-            151deg
-            , #1f2f0be3, #3fbe4994);
+    background-image: linear-gradient( 151deg, #1f2f0be3, #3fbe4994);
     box-shadow: 4px 7px 9px #0000006b;
     padding: 10px 2px 10px 17px;
-
-
-    margin: 0px;
-    position: absolute;
     inset: 0px auto auto 0px;
     transform: translate(1px, 45px);
-
 }
 
 .dropdown-item {
