@@ -57,13 +57,32 @@ body[data-template="template4"].blur .plexi3{
 
 /***********************************************    background 5  ***************************************/
 body[data-template="template5"]{
-    background-image: url(../img/bg/colombia1.jpg);
-    background-image: url(../img/bg/colombia2.jpg);
-    background-image: url(../img/patterns/black-thread-1920x1080.png);
+    /*background-image: url(../img/bg/colombia1.jpg);*/
+    /*background-image: url(../img/bg/colombia2.jpg);*/
+    /*background-image: url(../img/patterns/black-thread-1920x1080.png);*/
+
+    background: url(../img/patterns/asfalt-light.png);
+    background-color: rgb(12 30 24 / 91%);
+    background-repeat: repeat;
+    width: 100%;
+    background-attachment: fixed;
 
 }
 
 body[data-template="template5"].blur .plexi3{
-    background-image: url(../img/patterns/black-thread-1920x1080b.jpg);
+    background: url(../img/patterns/asfalt-lightr.png);
+    background-color: rgb(12 30 24 / 91%);
+    background-repeat: repeat;
+    /*width: 100%;*/
+    background-attachment: fixed;
+
+}
+
+body[data-template="template5"] .plexi3{
+    background: url(../img/patterns/asfalt-lightr.png);
+    background-repeat: repeat;
+    /*width: 100%;*/
+    background-attachment: fixed;
+    background: #0000002e;
 }
 
