@@ -10,6 +10,10 @@
 
 }
 
+#content-yt{
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0.15);
+}
+
 .yt .adver{
     font-size: .7rem;
 }
