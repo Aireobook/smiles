@@ -4,21 +4,19 @@
 
     <meta charset="UTF-8">
     <title>Aireobook</title>
-    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico'/>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="stylesheet" href="css/aderia.css" />
-    <link rel="stylesheet" href="css/simple-sidebar.css" />
-    <link rel="stylesheet" href="aimodal/core/aimodal.css" />
-    <link rel="stylesheet" href="css/aireobook.css" />
-    <link rel="stylesheet" href="css/front.css" />
-    <link rel="stylesheet" href="css/scrollbar.css" />
-
+    <link rel="stylesheet" href="css/aderia.css"/>
+    <link rel="stylesheet" href="css/simple-sidebar.css"/>
+    <link rel="stylesheet" href="aimodal/core/aimodal.css"/>
+    <link rel="stylesheet" href="css/aireobook.css"/>
+    <link rel="stylesheet" href="css/front.css"/>
+    <link rel="stylesheet" href="css/scrollbar.css"/>
 
 
     <script src="js/lang.js"></script>
     <script src="camodal/camodal.js"></script>
-
 
 
     <link rel="stylesheet" href="camodal/css/camodal.css">
@@ -33,7 +31,7 @@
 
     <script src="language/translatar/storage.js"></script>
     <script src="language/translatar/translatar.js"></script>
-<!--    <script src="translaterViewer/translaterViewer.js"></script>-->
+    <!--    <script src="translaterViewer/translaterViewer.js"></script>-->
 
 
 </head>
@@ -44,769 +42,898 @@
     <div id="ajaxJoin"></div>
 
 
-         <div id="aiwrapper" class="aiwrapper">
+    <div id="aiwrapper" class="aiwrapper">
 
 
-            <header id="navbar" class="content-header ">
+        <header id="navbar" class="content-header ">
 
 
-                <div class="container-max header-b ">
-                    <div class="ai-logo">
-                        <h1>
-                            <a class="parent-center-h" href="index.html">
-                                <img class="center-h" src="img/aireobook.png" alt="aireobook">
-                            </a>
-                        </h1>
-                    </div>
+            <div class="container-max header-b ">
+                <div class="ai-logo">
+                    <h1>
+                        <a class="parent-center-h" href="index.html">
+                            <img class="center-h" src="img/aireobook.png" alt="aireobook">
+                        </a>
+                    </h1>
+                </div>
 
 
-                    <div class="d_flex">
+                <div class="d_flex">
 
 
-
-                        <div class="dropdown d-inline-block language-switch">
-                            <div style="display: flex">
-                                <span data-t="language">Language</span>
-                                <div id="btn-lang" class="" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                    <div class="flages" ><img id="actual-language" src="img/flags/en.png" width="23" alt="image" />  </div>
-                                </div>
-                            </div>
-
-                            <div class="dropdown-menu dropdown-menu-end show dm-display-none " style="" data-popper-placement="bottom-end">
-                                                        <div id="flag-colombia"  data-lang ="co"  title="Colombia"  class="flags  padding-left-20" ><img src="img/flags/co.png" width="23" />Colombia</div>
-                                                        <div id="flag-poland"    data-lang ="pl"  title="Poland"    class="flags  padding-left-20" ><img src="img/flags/pl.png" width="23" />Poland</div>
-                                                        <div id="flag-russia"    data-lang ="ru"  title="Russia"    class="flags  padding-left-20" ><img src="img/flags/ru.png" width="23" />Russia</div>
-                                                        <div id="flag-spain"     data-lang ="es"  title="Spain"     class="flags  padding-left-20" ><img src="img/flags/es.png" width="23" alt="spain"/>Spain</div>
-                                                        <div id="flag-english"   data-lang ="en"  title="English"   class="flags  padding-left-20" ><img src="img/flags/en.png" width="23" alt="spain"/>English</div>
-
-
-
+                    <div class="dropdown d-inline-block language-switch">
+                        <div style="display: flex">
+                            <span data-t="language">Language</span>
+                            <div id="btn-lang" class="" data-bs-toggle="dropdown" aria-haspopup="true"
+                                 aria-expanded="true">
+                                <div class="flages"><img id="actual-language" src="img/flags/en.png" width="23"
+                                                         alt="image"/></div>
                             </div>
                         </div>
 
+                        <div class="dropdown-menu dropdown-menu-end show dm-display-none " style=""
+                             data-popper-placement="bottom-end">
+                            <div id="flag-colombia" data-lang="co" title="Colombia" class="flags  padding-left-20"><img
+                                    src="img/flags/co.png" width="23"/>Colombia
+                            </div>
+                            <div id="flag-poland" data-lang="pl" title="Poland" class="flags  padding-left-20"><img
+                                    src="img/flags/pl.png" width="23"/>Poland
+                            </div>
+                            <div id="flag-russia" data-lang="ru" title="Russia" class="flags  padding-left-20"><img
+                                    src="img/flags/ru.png" width="23"/>Russia
+                            </div>
+                            <div id="flag-spain" data-lang="es" title="Spain" class="flags  padding-left-20"><img
+                                    src="img/flags/es.png" width="23" alt="spain"/>Spain
+                            </div>
+                            <div id="flag-english" data-lang="en" title="English" class="flags  padding-left-20"><img
+                                    src="img/flags/en.png" width="23" alt="spain"/>English
+                            </div>
 
-
-                        <div class="dropdown d-inline-block">
-
-                            <div class="caButton js-btn" data-id="aireobooklinense"    ><i class="far fa-address-card"></i><span data-t="">License</span></div>
 
                         </div>
+                    </div>
 
 
-                        <div class="dropdown d-inline-block">
-                            <div id="modal-config1" class="caButton js-btn" data-id="aireobookabout"    ><i class="fa fa-cog" aria-hidden="true"></i><span data-t="">About</span></div>
-                        </div>
+                    <div class="dropdown d-inline-block">
 
-                        &nbsp;
-                        <div class="dropdown d-inline-block">
-                            <div id="modal-config" class="caButton js-btn" data-id="ceconfig" ><i class="fa fa-cog" aria-hidden="true"></i>Config</div>
-
-                        </div>
-
-
-                        <div class="dropdown d-inline-block">
-                            <button type="button" class="btn header-item noti-icon right-bar-toggle waves-effect">
-                               &nbsp; &nbsp;
-                            </button>
-                        </div>
-
+                        <div class="caButton js-btn" data-id="aireobooklinense"><i class="far fa-address-card"></i><span
+                                data-t="">License</span></div>
 
                     </div>
 
+
+                    <div class="dropdown d-inline-block">
+                        <div id="modal-config1" class="caButton js-btn" data-id="aireobookabout"><i class="fa fa-cog"
+                                                                                                    aria-hidden="true"></i><span
+                                data-t="">About</span></div>
+                    </div>
+
+                    &nbsp;
+                    <div class="dropdown d-inline-block">
+                        <div id="modal-config" class="caButton js-btn" data-id="ceconfig"><i class="fa fa-cog"
+                                                                                             aria-hidden="true"></i>Config
+                        </div>
+
+                    </div>
+
+
+                    <div class="dropdown d-inline-block">
+                        <button type="button" class="btn header-item noti-icon right-bar-toggle waves-effect">
+                            &nbsp; &nbsp;
+                        </button>
+                    </div>
 
 
                 </div>
 
 
-            </header>
-
-            <section class="container-xxl nav-content ">
-
-                    <div class="row ">
-                         <div class="homemenu">
-                              <div class="homemenu-content plexi3">
-                                   <ul>
-                                     <li class="active"><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+            </div>
 
 
-                                     <li><a href="https://aireobook.github.io/mind/" class=""><i class="fas fa-book"></i>Mind strength test</a></li>
-                                       <li class=""> <a  href="https://aireobook.github.io/htecp/"><i class="fas fa-photo-video"></i>Html Escape</a></li>
-                                       <li class=""> <a  href="https://aireobook.github.io/ytlink"><i class="fas fa-photo-video"></i>Youtube Image</a></li>
+        </header>
+
+        <section class="container-xxl nav-content ">
+
+            <div class="row ">
+                <div class="homemenu">
+                    <div class="homemenu-content plexi3">
+                        <ul>
+                            <li class="active"><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
 
 
-                                     <li class=""><a href="https://aireobook.github.io/programs/"><i class="fas fa-book"></i>Programs</a>
-                                         <span class="text-linked ai-text2"><small><i  id="tt" class="" data-t="t_04">Products from a wide range of IT industry, from the AIREOBOOK C&E stable, both free and commercially.</i></small></span>
-                                     </li>
+                            <li><a href="https://aireobook.github.io/mind/" class=""><i class="fas fa-book"></i>Mind
+                                strength test</a></li>
+                            <li class=""><a href="https://aireobook.github.io/htecp/"><i class="fas fa-photo-video"></i>Html
+                                Escape</a></li>
+                            <li class=""><a href="https://aireobook.github.io/ytlink"><i class="fas fa-photo-video"></i>Youtube
+                                Image</a></li>
 
 
-                                  </ul>
-
-                             </div>
-
-                         </div>
-
-                    </div> <!-- row -->
+                            <li class=""><a href="https://aireobook.github.io/programs/"><i class="fas fa-book"></i>Programs</a>
+                                <span class="text-linked ai-text2"><small><i id="tt" class="" data-t="t_04">Products from a wide range of IT industry, from the AIREOBOOK C&E stable, both free and commercially.</i></small></span>
+                            </li>
 
 
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div> <!-- row -->
 
 
-                </section>
+        </section>
 
-            <section class="plexi3 title-yellow">
-                <div class="container-xxl en-treek-38">
-                    <h2 class=""><span data-t="texaple">Examples of using
+        <section class="plexi3 title-yellow">
+            <div class="container-xxl en-treek-38">
+                <h2 class=""><span data-t="texaple">Examples of using
                         Wordpress plugins from the Compositart plugin family</span></h2>
-<br>
-<!--                 youtube th img -->
-                    <div class=" float-left mr15 bmodal70 link-div video-play " data-videocode="5TG4PZUMoYY" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480'> <img class="link-image" src="img/yt/5TG4PZUMoYY.jpg" alt=""/> </div>
+                <br>
+                <!--                 youtube th img -->
+                <div class=" float-left mr15 bmodal70 link-div video-play " data-videocode="5TG4PZUMoYY" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'><img
+                        class="link-image" src="img/yt/5TG4PZUMoYY.jpg" alt=""/></div>
 
-                    <span class="" data-t="t_02">The compositart-youtube plugin allows you to display YouTube videos. A series of buttons on the bottom bar of the window take you to your family YouTube site, zoom in on the window, and more.<br>
+                <span class="" data-t="t_02">The compositart-youtube plugin allows you to display YouTube videos. A series of buttons on the bottom bar of the window take you to your family YouTube site, zoom in on the window, and more.<br>
                    The window is closed by clicking the cross in the upper right corner. Clicking anywhere on the desktop outside of the pane closes the movie pauses and closes the pane. This means that after such closing, the movie can be resumed at the point of the pause.
                         It's also a good practice to wrap the link image, like here. You can insert a video button anywhere in the text.</span>
 
 
-                    <p><span data-t="Example">Example:</span>
-                        <span  class="lw50  ">
-                            <img class="world"  data-videocode="cTfxennz3xU"  data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' src="img/yt/cTfxennz3xU.jpg" alt="przykład oblewania tekstem" >
+                <p><span data-t="Example">Example:</span>
+                    <span class="lw50  ">
+                            <img class="world" data-videocode="cTfxennz3xU" data-title="" data-footer="footer2"
+                                 data-type="standard" data-width="854" data-height='480' src="img/yt/cTfxennz3xU.jpg"
+                                 alt="przykład oblewania tekstem">
                         </span>
-                        <span class="" data-t="t-06">Obviously, you have to get a bit of a fist with css, but I suppose that people who want to use our programs have sufficient knowledge of this programming language.</span>
-                   </p>
-                    <p><span class="" data-t="t-08">The size of the linking image can be freely changed:</span>
-                         <span class="lw70">  <img  class="world"  data-videocode="2grQUgf8260" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' src="img/yt/2grQUgf8260.jpg" alt="przykład oblewania tekstem" ></span>
-                      <span class="" data-t="t-10">such:</span>
-                         <span class="lw50"><img  class="world" data-videocode="L6dx0pO5MSw" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' src="img/yt/L6dx0pO5MSw.jpg" alt="przykład oblewania tekstem" ></span>
-                        <span class="" data-t="t-12">or such:</span>
-                         <span class="lw40"><img  class="world" data-videocode="xHnntPaQB7Q" data-title="" data-footer="footer2"  data-type="standard" data-width="427" data-height='240' src="img/yt/xHnntPaQB7Q.jpg" alt="przykład oblewania tekstem" ></span>
-                        <span class="" data-t="t-14">You can also run a video from a text link:</span>
-                          <span  class=" link-js world "  data-videocode="lbLhDxDk64U"    data-type="standard" data-width="1024" data-height="576"><i class="">text link to the video</i></span>
-                      </p>
-                    </div>
-                </section>
-        </div>
-
-
-        <div class="plexi3 title-yellow ">
-            <h2 class="title-area">Promo music</h2>
-        </div>
-
-
-        <section class="container-xxl admiral-areen">
-            <div class="plexi3">
-
-                <div data-videocode="ocFYE_FLydI" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' class="areea-yt bmodal_big link-div video-play ">
-                    <img  title="Greeicy - Los Besos (Versión Piano)"  class="foto link-img" src="img/yt/ocFYE_FLydI.jpg" alt="No image">
-                </div>
-                    <br>
-                <p>
-                    <span class="" data-t="t-16">Greeicy Yeliana Rendón Ceballos (born October 30, 1992) is a Colombian actress and singer</span>
-                    <span class="float-right"><a target="_blank" href="https://www.youtube.com/results?search_query=Greeicy+Yeliana">more...</a> </span>
+                    <span class="" data-t="t-06">Obviously, you have to get a bit of a fist with css, but I suppose that people who want to use our programs have sufficient knowledge of this programming language.</span>
+                </p>
+                <p><span class="" data-t="t-08">The size of the linking image can be freely changed:</span>
+                    <span class="lw70">  <img class="world" data-videocode="2grQUgf8260" data-title=""
+                                              data-footer="footer2" data-type="standard" data-width="854"
+                                              data-height='480' src="img/yt/2grQUgf8260.jpg"
+                                              alt="przykład oblewania tekstem"></span>
+                    <span class="" data-t="t-10">such:</span>
+                    <span class="lw50"><img class="world" data-videocode="L6dx0pO5MSw" data-title=""
+                                            data-footer="footer2" data-type="standard" data-width="854"
+                                            data-height='480' src="img/yt/L6dx0pO5MSw.jpg"
+                                            alt="przykład oblewania tekstem"></span>
+                    <span class="" data-t="t-12">or such:</span>
+                    <span class="lw40"><img class="world" data-videocode="xHnntPaQB7Q" data-title=""
+                                            data-footer="footer2" data-type="standard" data-width="427"
+                                            data-height='240' src="img/yt/xHnntPaQB7Q.jpg"
+                                            alt="przykład oblewania tekstem"></span>
+                    <span class="" data-t="t-14">You can also run a video from a text link:</span>
+                    <span class=" link-js world " data-videocode="lbLhDxDk64U" data-type="standard" data-width="1024"
+                          data-height="576"><i class="">text link to the video</i></span>
                 </p>
             </div>
-
-
-            <div class=" plexi3">
-                <div data-videocode="mz1Gjp0eJ8Q" class="areea-yt bmodal_big linked link-div video-play " title="EXAITED - MYŚLĘ O TOBIE (OFMT OLSZTYN 2019)"   data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                    <img   class="foto  link-img "  src="img/yt/mz1Gjp0eJ8Q.jpg" alt="No image">
-                </div>
-                <br>
-                <p>
-                    <span class="" data-t="t-18">Exaited - Polish disco polo band. It was established in 2006 on the initiative of Agnieszka Drewnicka and Tomasz Sidoruk.</span>
-                    <span class="float-right"><a target="_blank" href="https://www.youtube.com/results?search_query=Exaited">more...</a> </span>
-                </p>
-            </div>
-
-
-            <div class="plexi3">
-                <div title="Дискотека Авария — Модный танец АРАМ ЗАМ ЗАМ (Официальный клип, 2009) [HQ]"  data-videocode="AsMTTh5Z1j8" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' class="areea-yt bmodal_big  link-div  ">
-                    <img   class="foto link-img " src="img/yt/AsMTTh5Z1j8.jpg" alt="No image">
-                </div>
-                <br>
-                <p>
-                    <span class="" data-t="t-20">Diskotieka Awarija - Russian music group playing music from rap, hip-hop, pop and rock, founded in 1996 in Ivanovo</span>
-                    <span class="float-right"><a target="_blank" href="https://youtu.be/AsMTTh5Z1j8">more...</a> </span>
-                </p>
-            </div>
-
-
-
         </section>
-
-        <section class="container-xxl admiral-areen">
-
+    </div>
 
 
-         <div class="plexi3 ">
-
-             <div data-videocode="aNvpzKx-J8w" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' class="areea-yt bmodal_big    link-div ">
-                 <img  title="Magda Durecka + K & K Studio Singers - MAGDA DANCE OMEGA MIX - HALINA MEGA MIX"  class="foto link-img " src="img/yt/aNvpzKx-J8w.jpg" alt="No image">
-             </div>
-             <br>
-             <p>
-                 <span class="__t" data-t="t-22">Magda Durecka (born March 3, 1967 in Kluczbork) - Polish singer and songwriter.</span>
-                 <span class="float-right"><a target="_blank" href="https://www.youtube.com/results?search_query=Magda+Durecka">more...</a> </span>
-             </p>
-         </div>
+    <div class="plexi3 title-yellow ">
+        <h2 class="title-area">Promo music</h2>
+    </div>
 
 
+    <section class="container-xxl admiral-areen">
+        <div class="plexi3">
 
-
-
-
-         <div class="plexi3">
-             <div   data-videocode="oaQEeQQ3qy0" class="areea-yt bmodal_big link-div" data-title="" title="Leo Rojas My Sweet Indian Child HD" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                 <img   class="foto link-img " src="img/yt/oaQEeQQ3qy0.jpg" alt="No image">
-             </div>
-             <br>
-             <p>
-                 <span class="__t" data-t="t-24">Leo Rojas came from his native country to Spain in 2000, while his family stayed in Ecuador. He currently lives with his Polish wife in Berlin</span>
-                 <span class="float-right"><a target="_blank" href="https://www.youtube.com/results?search_query=Leo+Rojas">more...</a> </span>
-             </p>
-         </div>
-
-            <div class="plexi3 ">
-                <div data-videocode="t_bP0dZMC8g" class="areea-yt bmodal_big  link-div video-play " title="Leo Rojas My Sweet Indian Child HD"   data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                    <img   class="foto link-img" src="img/yt/t_bP0dZMC8g.jpg" alt="No image">
-                </div>
-                <br>
-                <p>
-                    <span class="__t" data-t="t-26">Elen Cora is a singer performing in the styles of Italo Disco, Euro Disco and Russian Disco. Elen Cora lives in Novosibirsk, Russia, and is the voice of Siberian Heat, Elen Cora, and Studiya-80 projects.</span>
-                    <span class="float-right"><a target="_blank" href="https://www.youtube.com/results?search_query=Siberian+heat">more...</a> </span>
-                </p>
+            <div data-videocode="ocFYE_FLydI" data-title="" data-footer="footer2" data-type="standard" data-width="854"
+                 data-height='480' class="areea-yt bmodal_big link-div video-play ">
+                <img title="Greeicy - Los Besos (Versión Piano)" class="foto link-img" src="img/yt/ocFYE_FLydI.jpg"
+                     alt="No image">
             </div>
-     </section>
-
-        <br><br>
-
-        <section class="plexi3 ">
-                    <div class="container-xxl">
-                        <div class="tic-tac">
-                            <h2> <span data-t="t-28"> Sample images. Trochę zdjęć ze stajni P.E.Asgariana</span></h2>
-
-                            <div class="areea">
-                                <div data-doc="wstaw1" data-title="image.jpg"  data-image="img/foto/a201.jpg" class="imager" ><img   class="link-th" src="img/foto/a201_th.jpg" alt="Girl in a jacket"></div>
-                                <div data-doc="wstaw1" data-title="image.jpg"  data-image="img/foto/a200.jpg" class="imager" ><img   class="link-th" src="img/foto/a200_th.jpg" alt="Girl in a jacket"></div>
-                                <div data-doc="wstaw1" data-title="image.jpg"  data-image="img/foto/BG_4090b.jpg" class="imager" ><img   class="link-th" src="img/foto/BG_4090b_th.jpg" alt="Girl in a jacket"></div>
-                                <div data-doc="wstaw1" data-title="image.jpg"  data-image="img/foto/bg1701b.jpg" class="imager" ><img   class="link-th" src="img/foto/bg1701b_th.jpg" alt="Girl in a jacket"></div>
-
-
-                            </div>
-
-                            <br>
-                        <div class="areea">
-
-
-                        </div>
-                    </div>
-                    </div>
-
-
-             <br>
-
-
-                 </section>
-
-
-        <section class="plexi3">
-                    <div class="ai-text1 container-xxl">
-                        <h2>Sample video</h2>
-                        <div class="areea">
-
-
-
-
-
-                        <div class=" mr15 bmodal70 link-div video-play " data-videocode="7do4mTUoUAM" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480'>
-                           <img class="link-image" src="img/yt/7do4mTUoUAM.jpg" alt="">
-                        </div>
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="mWgn3UlVgRw" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/mWgn3UlVgRw.jpg" alt="No image">
-                        </div>
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="XkVff6dZMv4" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/XkVff6dZMv4.jpg" alt="No image">
-                        </div>
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="vAdLKystBTo" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/vAdLKystBTo.jpg" alt="No image">
-                        </div>
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="ocFYE_FLydI" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/ocFYE_FLydI.jpg" alt="No image">
-                        </div>
-                        <div class=" mr15 bmodal70 link-div video-play " data-videocode="3bF0knyugFQ" data-title=""
-                             data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
-                            <img class="foto" src="img/yt/3bF0knyugFQ.jpg" alt="No image">
-                        </div>
-
-
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="kr2hmq0o6pc" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/kr2hmq0o6pc.jpg" alt="No image">
-                        </div>
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="XBdLsNNT064" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/XBdLsNNT064.jpg" alt="No image">
-                        </div>
-
-
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="NOaKPbkJg-I" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/NOaKPbkJg-I.jpg" alt="No image">
-                        </div>
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="lbLhDxDk64U" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/lbLhDxDk64U.jpg" alt="No image">
-                        </div>
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="xB5aeEuValw" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/xB5aeEuValw.jpg" alt="No image">
-                        </div>
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="kdWKJlLhwXc" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/kdWKJlLhwXc.jpg" alt="No image">
-                        </div>
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="-t7m-Yxv5L4" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/-t7m-Yxv5L4.jpg" alt="No image">
-                        </div>
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="TKTHX2k1XMU" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/TKTHX2k1XMU.jpg" alt="No image">
-                        </div>
-
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="VOZFuHxfryw" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/VOZFuHxfryw.jpg" alt="No image">
-                        </div>
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="5OCENVJ1_do" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/5OCENVJ1_do.jpg" alt="No image">
-                        </div>
-<!--                        <div class="mr15 bmodal70 link-div video-play" data-videocode="iyLdoQGBchQ" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >-->
-<!--                           <img class="foto" src="img/yt/iyLdoQGBchQ.jpg" alt="No image">-->
-<!--                        </div>-->
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="n2vjJZ3xSXc" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/n2vjJZ3xSXc.jpg" alt="No image">
-                        </div>
-
-
-
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="z_jjzd6eyX4" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/z_jjzd6eyX4.jpg" alt="No image">
-                        </div>
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="ZmIKIbjCMOg" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/ZmIKIbjCMOg.jpg" alt="No image">
-                        </div>
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="yBEJvV1CM38" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/yBEJvV1CM38.jpg" alt="No image">
-                        </div>
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="POrbgeaw7ro" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/POrbgeaw7ro.jpg" alt="No image">
-                        </div>
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="bY-Vcb6QAGA" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/bY-Vcb6QAGA.jpg" alt="No image">
-                        </div>
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="DtMXzVca6AM" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/DtMXzVca6AM.jpg" alt="No image">
-                        </div>
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="jhaTXWEVgHA" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/jhaTXWEVgHA.jpg" alt="No image">
-                        </div>
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="e1AmVd8OLd0" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/e1AmVd8OLd0.jpg" alt="No image">
-                        </div>
-<!--                        <div class="mr15 bmodal70 link-div video-play" data-videocode="ffoHtHELW1M" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >-->
-<!--                           <img class="foto" src="img/yt/ffoHtHELW1M.jpg" alt="No image">-->
-<!--                        </div>-->
-
-
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="gVgeJFWWBbw" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/gVgeJFWWBbw.jpg" alt="No image">
-                        </div>
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="hp4endJMu1E" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/hp4endJMu1E.jpg" alt="No image">
-                        </div>
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="_JFOjvfG8cc" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/-JFOjvfG8cc.jpg" alt="No image">
-                        </div>
-
-<!--                        <div class="mr15 bmodal70 link-div video-play" data-videocode="uJNZ_cPIDh0" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >-->
-<!--                           <img class="foto" src="img/yt/uJNZ_cPIDh0.jpg" alt="No image">-->
-<!--                        </div>-->
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="3_uQSTUE8sU" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/3_uQSTUE8sU.jpg" alt="No image">
-                        </div>
-
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="-hZlIC2Kayk" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/-hZlIC2Kayk.jpg" alt="No image">
-                        </div>
-
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="H7FdOqRdtFc" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                <img class="foto" src="img/yt/H7FdOqRdtFc.jpg" alt="No image">
-                            </div>
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="q_eo5j5sib8" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                <img class="foto" src="img/yt/q_eo5j5sib8.jpg" alt="No image">
-                            </div>
-
-
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="lEGImihwDKQ" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                                         <img class="foto" src="img/yt/lEGImihwDKQ.jpg" alt="No image">
-                        </div>
-
-
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="Qk52ypnGs68" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/Qk52ypnGs68.jpg" alt="No image">
-                        </div>
-
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="nJ31sMmytHU" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/nJ31sMmytHU.jpg" alt="No image">
-                        </div>
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="7IzezDJrHoU" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/7IzezDJrHoU.jpg" alt="No image">
-                        </div>
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="4-CuNJJO604" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/4-CuNJJO604.jpg" alt="No image">
-                        </div>
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="MCEcWcIww5k" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/MCEcWcIww5k.jpg" alt="No image">
-                        </div>
-
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="H7FdOqRdtFc" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/H7FdOqRdtFc.jpg" alt="No image">
-                        </div>
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="4I6D-GQ_2fY" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/4I6D-GQ_2fY.jpg" alt="No image">
-                        </div>
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="YX2LWYqW5xk" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/YX2LWYqW5xk.jpg" alt="No image">
-                        </div>
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="wkYtq4nljNc" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/wkYtq4nljNc.jpg" alt="No image">
-                        </div>
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="RJloVc0jfa8" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/RJloVc0jfa8.jpg" alt="No image">
-                        </div>
-
-                        <div class="mr15 bmodal70 link-div video-play" data-videocode="0qxabzjOINU" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                           <img class="foto" src="img/yt/0qxabzjOINU.jpg" alt="No image">
-                        </div>
-
-
-
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="rqSF_9Zf0n4" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                <img class="foto" src="img/yt/rqSF_9Zf0n4.jpg" alt="No image">
-                            </div>
-
-
-
-
-<!--                            <div class="mr15 bmodal70 link-div video-play" data-videocode="XOIQoobgB40" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >-->
-<!--                                <img class="foto" src="img/yt/XOIQoobgB40.jpg" alt="No image">-->
-<!--                            </div>-->
-
-
-
-
-                        </div>
+            <br>
+            <p>
+                <span class="" data-t="t-16">Greeicy Yeliana Rendón Ceballos (born October 30, 1992) is a Colombian actress and singer</span>
+                <span class="float-right"><a target="_blank"
+                                             href="https://www.youtube.com/results?search_query=Greeicy+Yeliana">more...</a> </span>
+            </p>
+        </div>
+
+
+        <div class=" plexi3">
+            <div data-videocode="mz1Gjp0eJ8Q" class="areea-yt bmodal_big linked link-div video-play "
+                 title="EXAITED - MYŚLĘ O TOBIE (OFMT OLSZTYN 2019)" data-title="" data-footer="footer2"
+                 data-type="standard" data-width="854" data-height='480'>
+                <img class="foto  link-img " src="img/yt/mz1Gjp0eJ8Q.jpg" alt="No image">
+            </div>
+            <br>
+            <p>
+                <span class="" data-t="t-18">Exaited - Polish disco polo band. It was established in 2006 on the initiative of Agnieszka Drewnicka and Tomasz Sidoruk.</span>
+                <span class="float-right"><a target="_blank"
+                                             href="https://www.youtube.com/results?search_query=Exaited">more...</a> </span>
+            </p>
+        </div>
+
+
+        <div class="plexi3">
+            <div title="Дискотека Авария — Модный танец АРАМ ЗАМ ЗАМ (Официальный клип, 2009) [HQ]"
+                 data-videocode="AsMTTh5Z1j8" data-title="" data-footer="footer2" data-type="standard" data-width="854"
+                 data-height='480' class="areea-yt bmodal_big  link-div  ">
+                <img class="foto link-img " src="img/yt/AsMTTh5Z1j8.jpg" alt="No image">
+            </div>
+            <br>
+            <p>
+                <span class="" data-t="t-20">Diskotieka Awarija - Russian music group playing music from rap, hip-hop, pop and rock, founded in 1996 in Ivanovo</span>
+                <span class="float-right"><a target="_blank" href="https://youtu.be/AsMTTh5Z1j8">more...</a> </span>
+            </p>
+        </div>
+
+
+    </section>
+
+    <section class="container-xxl admiral-areen">
+
+
+        <div class="plexi3 ">
+
+            <div data-videocode="aNvpzKx-J8w" data-title="" data-footer="footer2" data-type="standard" data-width="854"
+                 data-height='480' class="areea-yt bmodal_big    link-div ">
+                <img title="Magda Durecka + K & K Studio Singers - MAGDA DANCE OMEGA MIX - HALINA MEGA MIX"
+                     class="foto link-img " src="img/yt/aNvpzKx-J8w.jpg" alt="No image">
+            </div>
+            <br>
+            <p>
+                <span class="__t" data-t="t-22">Magda Durecka (born March 3, 1967 in Kluczbork) - Polish singer and songwriter.</span>
+                <span class="float-right"><a target="_blank"
+                                             href="https://www.youtube.com/results?search_query=Magda+Durecka">more...</a> </span>
+            </p>
+        </div>
+
+
+        <div class="plexi3">
+            <div data-videocode="oaQEeQQ3qy0" class="areea-yt bmodal_big link-div" data-title=""
+                 title="Leo Rojas My Sweet Indian Child HD" data-footer="footer2" data-type="standard" data-width="854"
+                 data-height='480'>
+                <img class="foto link-img " src="img/yt/oaQEeQQ3qy0.jpg" alt="No image">
+            </div>
+            <br>
+            <p>
+                <span class="__t" data-t="t-24">Leo Rojas came from his native country to Spain in 2000, while his family stayed in Ecuador. He currently lives with his Polish wife in Berlin</span>
+                <span class="float-right"><a target="_blank"
+                                             href="https://www.youtube.com/results?search_query=Leo+Rojas">more...</a> </span>
+            </p>
+        </div>
+
+        <div class="plexi3 ">
+            <div data-videocode="t_bP0dZMC8g" class="areea-yt bmodal_big  link-div video-play "
+                 title="Leo Rojas My Sweet Indian Child HD" data-title="" data-footer="footer2" data-type="standard"
+                 data-width="854" data-height='480'>
+                <img class="foto link-img" src="img/yt/t_bP0dZMC8g.jpg" alt="No image">
+            </div>
+            <br>
+            <p>
+                <span class="__t" data-t="t-26">Elen Cora is a singer performing in the styles of Italo Disco, Euro Disco and Russian Disco. Elen Cora lives in Novosibirsk, Russia, and is the voice of Siberian Heat, Elen Cora, and Studiya-80 projects.</span>
+                <span class="float-right"><a target="_blank"
+                                             href="https://www.youtube.com/results?search_query=Siberian+heat">more...</a> </span>
+            </p>
+        </div>
+    </section>
+
+    <br><br>
+
+    <section class="plexi3 ">
+        <div class="container-xxl">
+            <div class="tic-tac">
+                <h2><span data-t="t-28"> Sample images. Trochę zdjęć ze stajni P.E.Asgariana</span></h2>
+
+                <div class="areea">
+                    <div data-doc="wstaw1" data-title="image.jpg" data-image="img/foto/a201.jpg" class="imager"><img
+                            class="link-th" src="img/foto/a201_th.jpg" alt="Girl in a jacket"></div>
+                    <div data-doc="wstaw1" data-title="image.jpg" data-image="img/foto/a200.jpg" class="imager"><img
+                            class="link-th" src="img/foto/a200_th.jpg" alt="Girl in a jacket"></div>
+                    <div data-doc="wstaw1" data-title="image.jpg" data-image="img/foto/BG_4090b.jpg" class="imager"><img
+                            class="link-th" src="img/foto/BG_4090b_th.jpg" alt="Girl in a jacket"></div>
+                    <div data-doc="wstaw1" data-title="image.jpg" data-image="img/foto/bg1701b.jpg" class="imager"><img
+                            class="link-th" src="img/foto/bg1701b_th.jpg" alt="Girl in a jacket"></div>
+
+
+                </div>
+
+                <br>
+                <div class="areea">
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <br>
+
+
+    </section>
+
+
+    <section class="plexi3">
+        <div class="ai-text1 container-xxl">
+            <h2>Sample video</h2>
+            <div class="areea">
+
+
+                <div class=" mr15 bmodal70 link-div video-play " data-videocode="7do4mTUoUAM" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="link-image" src="img/yt/7do4mTUoUAM.jpg" alt="">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="mWgn3UlVgRw" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/mWgn3UlVgRw.jpg" alt="No image">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="XkVff6dZMv4" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/XkVff6dZMv4.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="vAdLKystBTo" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/vAdLKystBTo.jpg" alt="No image">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="ocFYE_FLydI" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/ocFYE_FLydI.jpg" alt="No image">
+                </div>
+                <div class=" mr15 bmodal70 link-div video-play " data-videocode="3bF0knyugFQ" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/3bF0knyugFQ.jpg" alt="No image">
+                </div>
+
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="kr2hmq0o6pc" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/kr2hmq0o6pc.jpg" alt="No image">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="XBdLsNNT064" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/XBdLsNNT064.jpg" alt="No image">
+                </div>
+
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="NOaKPbkJg-I" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/NOaKPbkJg-I.jpg" alt="No image">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="lbLhDxDk64U" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/lbLhDxDk64U.jpg" alt="No image">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="xB5aeEuValw" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/xB5aeEuValw.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="kdWKJlLhwXc" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/kdWKJlLhwXc.jpg" alt="No image">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="-t7m-Yxv5L4" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/-t7m-Yxv5L4.jpg" alt="No image">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="TKTHX2k1XMU" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/TKTHX2k1XMU.jpg" alt="No image">
+                </div>
+
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="VOZFuHxfryw" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/VOZFuHxfryw.jpg" alt="No image">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="5OCENVJ1_do" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/5OCENVJ1_do.jpg" alt="No image">
+                </div>
+                <!--                        <div class="mr15 bmodal70 link-div video-play" data-videocode="iyLdoQGBchQ" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >-->
+                <!--                           <img class="foto" src="img/yt/iyLdoQGBchQ.jpg" alt="No image">-->
+                <!--                        </div>-->
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="n2vjJZ3xSXc" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/n2vjJZ3xSXc.jpg" alt="No image">
+                </div>
+
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="z_jjzd6eyX4" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/z_jjzd6eyX4.jpg" alt="No image">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="ZmIKIbjCMOg" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/ZmIKIbjCMOg.jpg" alt="No image">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="yBEJvV1CM38" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/yBEJvV1CM38.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="POrbgeaw7ro" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/POrbgeaw7ro.jpg" alt="No image">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="bY-Vcb6QAGA" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/bY-Vcb6QAGA.jpg" alt="No image">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="DtMXzVca6AM" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/DtMXzVca6AM.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="jhaTXWEVgHA" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/jhaTXWEVgHA.jpg" alt="No image">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="e1AmVd8OLd0" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/e1AmVd8OLd0.jpg" alt="No image">
+                </div>
+                <!--                        <div class="mr15 bmodal70 link-div video-play" data-videocode="ffoHtHELW1M" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >-->
+                <!--                           <img class="foto" src="img/yt/ffoHtHELW1M.jpg" alt="No image">-->
+                <!--                        </div>-->
+
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="gVgeJFWWBbw" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/gVgeJFWWBbw.jpg" alt="No image">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="hp4endJMu1E" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/hp4endJMu1E.jpg" alt="No image">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="_JFOjvfG8cc" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/-JFOjvfG8cc.jpg" alt="No image">
+                </div>
+
+                <!--                        <div class="mr15 bmodal70 link-div video-play" data-videocode="uJNZ_cPIDh0" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >-->
+                <!--                           <img class="foto" src="img/yt/uJNZ_cPIDh0.jpg" alt="No image">-->
+                <!--                        </div>-->
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="3_uQSTUE8sU" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/3_uQSTUE8sU.jpg" alt="No image">
+                </div>
+
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="-hZlIC2Kayk" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/-hZlIC2Kayk.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="H7FdOqRdtFc" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/H7FdOqRdtFc.jpg" alt="No image">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="q_eo5j5sib8" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/q_eo5j5sib8.jpg" alt="No image">
+                </div>
+
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="lEGImihwDKQ" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/lEGImihwDKQ.jpg" alt="No image">
+                </div>
+
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="Qk52ypnGs68" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/Qk52ypnGs68.jpg" alt="No image">
+                </div>
+
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="nJ31sMmytHU" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/nJ31sMmytHU.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="7IzezDJrHoU" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/7IzezDJrHoU.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="4-CuNJJO604" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/4-CuNJJO604.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="MCEcWcIww5k" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/MCEcWcIww5k.jpg" alt="No image">
+                </div>
+
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="H7FdOqRdtFc" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/H7FdOqRdtFc.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="4I6D-GQ_2fY" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/4I6D-GQ_2fY.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="YX2LWYqW5xk" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/YX2LWYqW5xk.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="wkYtq4nljNc" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/wkYtq4nljNc.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="RJloVc0jfa8" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/RJloVc0jfa8.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="0qxabzjOINU" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/0qxabzjOINU.jpg" alt="No image">
+                </div>
+
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="rqSF_9Zf0n4" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/rqSF_9Zf0n4.jpg" alt="No image">
+                </div>
+
+
+                <!--                            <div class="mr15 bmodal70 link-div video-play" data-videocode="XOIQoobgB40" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >-->
+                <!--                                <img class="foto" src="img/yt/XOIQoobgB40.jpg" alt="No image">-->
+                <!--                            </div>-->
+
+
+            </div>
             <br><br>
 
 
-                        <div class="areea">
+            <div class="areea">
 
 
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="wE01JoR6B3U" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                <img class="foto" src="img/yt/wE01JoR6B3U.jpg" alt="No image">
-                            </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="wE01JoR6B3U" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/wE01JoR6B3U.jpg" alt="No image">
+                </div>
 
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="JQGRg8XBnB4" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                <img class="foto" src="img/yt/JQGRg8XBnB4.jpg" alt="No image">
-                            </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="JQGRg8XBnB4" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/JQGRg8XBnB4.jpg" alt="No image">
+                </div>
 
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="QAS3kbqGSyQ" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                <img class="foto" src="img/yt/QAS3kbqGSyQ.jpg" alt="No image">
-                            </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="QAS3kbqGSyQ" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/QAS3kbqGSyQ.jpg" alt="No image">
+                </div>
 
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="G_r7QuPDWoA" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                <img class="foto" src="img/yt/G_r7QuPDWoA.jpg" alt="No image">
-                            </div>
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="9ng3fUQVuA8" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                <img class="foto" src="img/yt/9ng3fUQVuA8.jpg" alt="No image">
-                            </div>
-
-
-
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="ZVF5x-YzUBY" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                <img class="foto" src="img/yt/ZVF5x-YzUBY.jpg" alt="No image">
-                            </div>
-
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="lxQAxNczzms" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                <img class="foto" src="img/yt/lxQAxNczzms.jpg" alt="No image">
-                            </div>
-
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="7k_CiabkNVk" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                <img class="foto" src="img/yt/7k_CiabkNVk.jpg" alt="No image">
-                            </div>
-
-
-
-
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="oFiNLrPrghE" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                <img class="foto" src="img/yt/oFiNLrPrghE.jpg" alt="No image">
-                            </div>
-
-
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="SPdYtRlBb9E" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                <img class="foto" src="img/yt/SPdYtRlBb9E.jpg" alt="No image">
-                            </div>
-
-
-
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="TySkz3tko6E" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                <img class="foto" src="img/yt/TySkz3tko6E.jpg" alt="No image">
-                            </div>
-
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="TScaGnhKQD8" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                <img class="foto" src="img/yt/TScaGnhKQD8.jpg" alt="No image">
-                            </div>
-
-
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="mYp_CKdOPZY" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                <img class="foto" src="img/yt/mYp_CKdOPZY.jpg" alt="No image">
-                            </div>
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="l7zW2NVMxFQ" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                <img class="foto" src="img/yt/l7zW2NVMxFQ.jpg" alt="No image">
-                            </div>
-
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="sA4UEcWj3vo" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                <img class="foto" src="img/yt/sA4UEcWj3vo.jpg" alt="No image">
-                            </div>
-
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="zoXHNnLsJos" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                <img class="foto" src="img/yt/zoXHNnLsJos.jpg" alt="No image">
-                            </div>
-
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="Mx4n8njpOxg" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                <img class="foto" src="img/yt/Mx4n8njpOxg.jpg" alt="No image">
-                            </div>
-
-                            <div class=" mr15 bmodal70 link-div video-play " data-videocode="_lnOV1uHt-c" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480'>
-                                <img class="link-image" src="img/yt/lnOV1uHt-c.jpg" alt="">
-                            </div>
-
-
-
-                            <div class="mr15 bmodal70 link-div video-play" data-videocode="0IHBcPpGlkM" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                                <img class="foto" src="img/yt/0IHBcPpGlkM.jpg" alt="No image">
-                            </div>
-
-
-
-                        </div>
-
-           <hr>
-
-                 <h2>Sample long video</h2>
-                 <div class="areea">
-
-
-
-                     <div class=" mr15 bmodal70 link-div video-play " data-videocode="svRAt3112Po" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480'>
-                         <img class="link-image" src="img/yt/svRAt3112Po.jpg" alt="No image">
-                     </div>
-                     <div class="mr15 bmodal70 link-div video-play" data-videocode="8juoaj5mSdw" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                         <img class="foto" src="img/yt/8juoaj5mSdw.jpg" alt="No image">
-                     </div>
-
-
-                     <div class="mr15 bmodal70 link-div video-play" data-videocode="1ZYbU82GVz4" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                         <img class="foto" src="img/yt/1ZYbU82GVz4.jpg" alt="No image">
-                     </div>
-
-
-
-                 </div>
-             </div>
-
-         </section>
-
-
-        <section class="plexi3">
-            <div class="ai-text1 container-xxl">
-                <h2>Karaoke</h2>
-
-                <div class="areea">
-
-                    <div class="mr15 bmodal70 link-div video-play" data-videocode="YNGhoHKZ-o4" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                        <img class="foto" src="img/yt/YNGhoHKZ-o4.jpg" alt="No image">
-                    </div>
-
-                    <div class="mr15 bmodal70 link-div video-play" data-videocode="5LtzFwwAcf8" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                        <img class="foto" src="img/yt/5LtzFwwAcf8.jpg" alt="No image">
-                    </div>
-                    <div class="yt-descryption">
-                        Opis: Krywań, Hej szalała
-                    </div>
-
-
-                    <div class="mr15 bmodal70 link-div video-play" data-videocode="pkTV6plgVa8" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                        <img class="foto" src="img/yt/pkTV6plgVa8.jpg" alt="No image">
-                    </div>
-                    <div class="mr15 bmodal70 link-div video-play" data-videocode="nZC0s0Ep-dI" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                        <img class="foto" src="img/yt/nZC0s0Ep-dI.jpg" alt="No image">
-                    </div>
-
-
-
-
-                    <div class="mr15 bmodal70 link-div video-play" data-videocode="O3PSWa7vOGc" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                        <img class="foto" src="img/yt/O3PSWa7vOGc.jpg" alt="No image">
-                    </div>
-
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="G_r7QuPDWoA" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/G_r7QuPDWoA.jpg" alt="No image">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="9ng3fUQVuA8" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/9ng3fUQVuA8.jpg" alt="No image">
                 </div>
 
 
-                <div class="areea">
-                    <div class="mr15 bmodal70 link-div video-play" data-videocode="ZtC2LRovu6k" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                        <img class="foto" src="img/yt/ZtC2LRovu6k.jpg" alt="No image">
-                    </div>
-                    <div class="yt-descryption">
-                        Majka Jeżowska - Na raz, na dwa. Piosenka dla dzieci
-                    </div>
-
-                    <div class="mr15 bmodal70 link-div video-play" data-videocode="QakOaOYVRjg" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                        <img class="foto" src="img/yt/QakOaOYVRjg.jpg" alt="No image">
-                    </div>
-
-                    <div class="mr15 bmodal70 link-div video-play" data-videocode="1bYdef2SUxc" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                        <img class="foto" src="img/yt/1bYdef2SUxc.jpg" alt="No image">
-                    </div>
-
-                    <div class="mr15 bmodal70 link-div video-play" data-videocode="2TcEDVi4cxE" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                        <img class="foto" src="img/yt/2TcEDVi4cxE.jpg" alt="No image">
-                    </div>
-                    <div class="mr15 bmodal70 link-div video-play" data-videocode="eEmVigFW7H4" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                        <img class="foto" src="img/yt/eEmVigFW7H4.jpg" alt="No image">
-                    </div>
-
-
-
-
-
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="ZVF5x-YzUBY" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/ZVF5x-YzUBY.jpg" alt="No image">
                 </div>
 
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="lxQAxNczzms" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/lxQAxNczzms.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="7k_CiabkNVk" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/7k_CiabkNVk.jpg" alt="No image">
+                </div>
+
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="oFiNLrPrghE" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/oFiNLrPrghE.jpg" alt="No image">
+                </div>
+
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="SPdYtRlBb9E" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/SPdYtRlBb9E.jpg" alt="No image">
+                </div>
+
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="TySkz3tko6E" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/TySkz3tko6E.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="TScaGnhKQD8" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/TScaGnhKQD8.jpg" alt="No image">
+                </div>
+
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="mYp_CKdOPZY" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/mYp_CKdOPZY.jpg" alt="No image">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="l7zW2NVMxFQ" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/l7zW2NVMxFQ.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="sA4UEcWj3vo" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/sA4UEcWj3vo.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="zoXHNnLsJos" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/zoXHNnLsJos.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="Mx4n8njpOxg" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/Mx4n8njpOxg.jpg" alt="No image">
+                </div>
+
+                <div class=" mr15 bmodal70 link-div video-play " data-videocode="_lnOV1uHt-c" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="link-image" src="img/yt/lnOV1uHt-c.jpg" alt="">
+                </div>
+
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="0IHBcPpGlkM" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/0IHBcPpGlkM.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="y08pFwmgKz8" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/y08pFwmgKz8.jpg" alt="No image">
+                </div>
 
 
             </div>
 
-        </section>
+            <hr>
+
+            <h2>Sample long video</h2>
+            <div class="areea">
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <section class="plexi3">
-            <div class="ai-text1 container-xxl">
-                <h2>Młode talenty</h2>
-
-                <div class="areea">
-
-
-                    <div class=" mr15 bmodal70 link-div video-play " data-videocode="WSTsssCJlWc" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480'>
-                        <img class="link-image" src="img/yt/WSTsssCJlWc.jpg" alt="">
-                    </div>
-                    <div class="mr15 bmodal70 link-div video-play" data-videocode="AvryJ4JN3qU" data-title=""  data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
-                        <img class="foto" src="img/yt/AvryJ4JN3qU.jpg" alt="No image">
-                    </div>
-                    <div class="mr15 bmodal70 link-div video-play" data-videocode="SSDAGG7OEmo" data-title=""  data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
-                        <img class="foto" src="img/yt/SSDAGG7OEmo.jpg" alt="No image">
-                    </div>
-
-
-
-
+                <div class=" mr15 bmodal70 link-div video-play " data-videocode="svRAt3112Po" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="link-image" src="img/yt/svRAt3112Po.jpg" alt="No image">
                 </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="8juoaj5mSdw" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/8juoaj5mSdw.jpg" alt="No image">
+                </div>
+
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="1ZYbU82GVz4" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/1ZYbU82GVz4.jpg" alt="No image">
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="plexi3">
+        <div class="ai-text1 container-xxl">
+            <h2>Karaoke</h2>
+
+            <div class="areea">
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="YNGhoHKZ-o4" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/YNGhoHKZ-o4.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="5LtzFwwAcf8" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/5LtzFwwAcf8.jpg" alt="No image">
+                </div>
+                <div class="yt-descryption">
+                    Opis: Krywań, Hej szalała
+                </div>
+
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="pkTV6plgVa8" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/pkTV6plgVa8.jpg" alt="No image">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="nZC0s0Ep-dI" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/nZC0s0Ep-dI.jpg" alt="No image">
+                </div>
+
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="O3PSWa7vOGc" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/O3PSWa7vOGc.jpg" alt="No image">
+                </div>
+
             </div>
 
-        </section>
 
-        <section class="plexi3">
-
-                    <div class=" mr15 bmodal70 link-div video-play " data-videocode="npxTZoaZ1j0" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480'>
-                        <img class="link-image" src="img/yt/npxTZoaZ1j0.jpg" alt="">
-                    </div>
-                    <div class="ai-text1 container-xxl">
-                        <h2>Dance</h2>
-                        <div class="areea">
-
-
-                        <div class=" mr15 bmodal70 link-div video-play " data-videocode="e3Cy4XTuL20" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480'>
-                        <img class="link-image" src="img/yt/e3Cy4XTuL20.jpg" alt="">
-                    </div>
-
-                    <div class=" mr15 bmodal70 link-div video-play " data-videocode="N2SB9rihWBY" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480'>
-                        <img class="link-image" src="img/yt/N2SB9rihWBY.jpg" alt="">
-                    </div>
-
-                    <div class="mr15 bmodal70 link-div video-play" data-videocode="ederJr4zh8k" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                        <img class="foto" src="img/yt/ederJr4zh8k.jpg" alt="No image">
-                    </div>
-
-
-                    <div class="mr15 bmodal70 link-div video-play" data-videocode="I95SlbkHyMU" data-title="" data-footer="footer2"  data-type="standard" data-width="854" data-height='480' >
-                        <img class="foto" src="img/yt/I95SlbkHyMU.jpg" alt="No image">
-                    </div>
-
-
-
+            <div class="areea">
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="ZtC2LRovu6k" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/ZtC2LRovu6k.jpg" alt="No image">
                 </div>
+                <div class="yt-descryption">
+                    Majka Jeżowska - Na raz, na dwa. Piosenka dla dzieci
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="QakOaOYVRjg" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/QakOaOYVRjg.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="1bYdef2SUxc" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/1bYdef2SUxc.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="2TcEDVi4cxE" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/2TcEDVi4cxE.jpg" alt="No image">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="eEmVigFW7H4" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/eEmVigFW7H4.jpg" alt="No image">
+                </div>
+
+
             </div>
 
-        </section>
 
-         <br>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="plexi3">
+        <div class="ai-text1 container-xxl">
+            <h2>????</h2>
+
+            <div class="areea">
+
+            </div>
+
+
+            <div class="areea">
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="plexi3">
+        <div class="ai-text1 container-xxl">
+            <h2>Młode talenty</h2>
+
+            <div class="areea">
+
+
+                <div class=" mr15 bmodal70 link-div video-play " data-videocode="WSTsssCJlWc" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="link-image" src="img/yt/WSTsssCJlWc.jpg" alt="">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="AvryJ4JN3qU" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/AvryJ4JN3qU.jpg" alt="No image">
+                </div>
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="SSDAGG7OEmo" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/SSDAGG7OEmo.jpg" alt="No image">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="27_hJ1LSneI" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/27_hJ1LSneI.jpg" alt="No image">
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="plexi3">
+
+
+        <div class="ai-text1 container-xxl">
+            <h2>Dance</h2>
+            <div class="areea">
+
+                <div class=" mr15 bmodal70 link-div video-play " data-videocode="npxTZoaZ1j0" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="link-image" src="img/yt/npxTZoaZ1j0.jpg" alt="">
+                </div>
+                <div class=" mr15 bmodal70 link-div video-play " data-videocode="e3Cy4XTuL20" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="link-image" src="img/yt/e3Cy4XTuL20.jpg" alt="">
+                </div>
+
+                <div class=" mr15 bmodal70 link-div video-play " data-videocode="N2SB9rihWBY" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="link-image" src="img/yt/N2SB9rihWBY.jpg" alt="">
+                </div>
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="ederJr4zh8k" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/ederJr4zh8k.jpg" alt="No image">
+                </div>
+
+
+                <div class="mr15 bmodal70 link-div video-play" data-videocode="I95SlbkHyMU" data-title=""
+                     data-footer="footer2" data-type="standard" data-width="854" data-height='480'>
+                    <img class="foto" src="img/yt/I95SlbkHyMU.jpg" alt="No image">
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <br>
 
 
     <footer id="footer" class="plexi3">
 
         <div class="footer-content container-xxl">
-
 
 
             <div class=" grid">
@@ -816,10 +943,12 @@
 
                     <ul>
 
-                        <li class="link-image"> <a  href="https://aireobook.github.io/htecp/"><i class="fas fa-photo-video"></i>Html Escape</a></li>
+                        <li class="link-image"><a href="https://aireobook.github.io/htecp/"><i
+                                class="fas fa-photo-video"></i>Html Escape</a></li>
 
                         <li>--</li>
-                        <li class="link-image"><a href="https://aireobook.wordpress.com/menu/" class=""><i class="fas fa-laptop-house"></i>Wp Home</a></li>
+                        <li class="link-image"><a href="https://aireobook.wordpress.com/menu/" class=""><i
+                                class="fas fa-laptop-house"></i>Wp Home</a></li>
 
                     </ul>
 
@@ -831,10 +960,16 @@
                     <ul>
 
                         <li>
-                            Image by <a href="https://pixabay.com/users/alefunky-5085270/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2225892">Alejo Ramirez</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2225892">Pixabay</a>
+                            Image by <a
+                                href="https://pixabay.com/users/alefunky-5085270/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2225892">Alejo
+                            Ramirez</a> from <a
+                                href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2225892">Pixabay</a>
                         </li>
                         <li>
-                        Image by <a href="https://pixabay.com/users/makalu-680451/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4915141">Makalu</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4915141">Pixabay</a>
+                            Image by <a
+                                href="https://pixabay.com/users/makalu-680451/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4915141">Makalu</a>
+                            from <a
+                                href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4915141">Pixabay</a>
                         </li>
 
 
@@ -849,10 +984,9 @@
 
                 </nav>
 
-                <nav class="ai-static"> </nav>
-                <nav class="ai-static"> </nav>
-                <nav class="ai-static"> </nav>
-
+                <nav class="ai-static"></nav>
+                <nav class="ai-static"></nav>
+                <nav class="ai-static"></nav>
 
 
                 <nav class="ai-static">
@@ -868,10 +1002,9 @@
 
             </div>
 
-         <br>
+            <br>
             <hr class="hr-1">
-         <br>
-
+            <br>
 
 
             <div class="footer-bottom_ grid">
@@ -879,16 +1012,20 @@
                 <nav class="ai-static">
                     <h6>Exterior photo pages</h6>
                     <ul>
-                        <li class="link-image"> <a class="" data-image="img2.jpg"  href="https://pixabay.com/">Pixabay</a>  </li>
-                        <li class="link-image">  <a class=""  data-image="img2.jpg" href="#">Freepixels</a> </li>
-                        <li class="link-image"> <a class="" data-image="img2.jpg" href="https://picjumbo.com/">Picjumbo</a> </li>
-                        <li class="link-image"> <a class="" href="https://gratisography.com/">Gratisography</a> </li>
+                        <li class="link-image"><a class="" data-image="img2.jpg" href="https://pixabay.com/">Pixabay</a>
+                        </li>
+                        <li class="link-image"><a class="" data-image="img2.jpg" href="#">Freepixels</a></li>
+                        <li class="link-image"><a class="" data-image="img2.jpg"
+                                                  href="https://picjumbo.com/">Picjumbo</a></li>
+                        <li class="link-image"><a class="" href="https://gratisography.com/">Gratisography</a></li>
                     </ul>
                 </nav>
                 <nav class="ai-static">
                     <h6>Exterior photo pages</h6>
                     <ul>
-                        <li class="link-image"> <a class="" data-image="img2.jpg"  href="https://kursjs.pl/kurs/events/events-mouse.php">Javascript mouse</a>  </li>
+                        <li class="link-image"><a class="" data-image="img2.jpg"
+                                                  href="https://kursjs.pl/kurs/events/events-mouse.php">Javascript
+                            mouse</a></li>
 
                     </ul>
                 </nav>
@@ -896,53 +1033,44 @@
                 <nav class="ai-static">
                     <h6>External sites, useful for developers</h6>
                     <ul>
-                        <li class="link-image"> <a class="" data-image="img2.jpg"  href="https://regexr.com/">regexr.com</a>  </li>
-                        <li class="" onclick="reload()"> <a class="#"   href="https://regexr.com/">reload test</a>  </li>
-                        <li class="" onclick="reload()"> <a class="#"   href="https://fontawesome.com/icons?d=gallery&p=2">Font Awesome Search</a>  </li>
+                        <li class="link-image"><a class="" data-image="img2.jpg"
+                                                  href="https://regexr.com/">regexr.com</a></li>
+                        <li class="" onclick="reload()"><a class="#" href="https://regexr.com/">reload test</a></li>
+                        <li class="" onclick="reload()"><a class="#" href="https://fontawesome.com/icons?d=gallery&p=2">Font
+                            Awesome Search</a></li>
                     </ul>
                 </nav>
 
             </div>
 
 
-            </div>
-
-
-
+        </div>
 
 
     </footer>
 
     <div class="subfooter">
-        <span class="center">template @ &nbsp;<i style = "color: #8ab4ff"> AIREOBOOK </i> &nbsp; Colombia & Europe It Group 2021</span>
+        <span class="center">template @ &nbsp;<i style="color: #8ab4ff"> AIREOBOOK </i> &nbsp; Colombia & Europe It Group 2021</span>
     </div>
-
-
 
 
 </div><!--wrapper    -->
 
 
-
 <small>
-    <script  src="aimodal/core/aimodal_html.js"></script>
-    <script  src="aimodal/core/CmModal.js"></script>
-    <script  src="aimodal/yt/YtMmodal.js"></script>
-    <script  src="aimodal/imagemodal/ImageModal.js"></script>
+    <script src="aimodal/core/aimodal_html.js"></script>
+    <script src="aimodal/core/CmModal.js"></script>
+    <script src="aimodal/yt/YtMmodal.js"></script>
+    <script src="aimodal/imagemodal/ImageModal.js"></script>
 
 
-
-
-
-
-
-    <script  src="js/front_init.js"></script>
+    <script src="js/front_init.js"></script>
     <script src="js/aimenu.js"></script>
 
     <script type="text/javascript" src="js/navbarhiden.js"></script>
     <script type="text/javascript" src="js/image.js"></script>
     <script type="text/javascript" src="aimodal/imagemodal/resize.js"></script>
-<!--    <script type="text/javascript" src="translate/ajaxpage.js"></script>-->
+    <!--    <script type="text/javascript" src="translate/ajaxpage.js"></script>-->
 
 </small>
 
