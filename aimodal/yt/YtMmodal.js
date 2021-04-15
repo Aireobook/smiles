@@ -204,6 +204,8 @@ class YtModal extends CmModal {
 
 
     content(e) {
+
+        console.log('contenmt e =====================================================================',e)
         let that = this;
 
         let video;
