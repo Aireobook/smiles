@@ -505,9 +505,43 @@ img {
     position: relative;
 }
 
-.areea div{
+.areea .video-play, .areea .yt-descryption{
     margin: 0 20px 20px 0;
 }
+
+.yt-descryption{
+    background: #17ff0024;
+    background-image: radial-gradient(#58f70069, #0029ff4a);
+    display: flex;
+    align-items: center;
+    padding: 0 33px;
+    font-size: 12px;
+    box-shadow: inset 0 0 20px #25580f;
+    width: 433px;
+    border-radius: 30px;
+    text-shadow: 1px 1px 3px #0000007d;
+    height: 70px;
+}
+
+
+.yt-descryption_70{
+
+}
+
+.areea .multi70{
+    height: 70px;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+}
+
+.areea .multi70:hover{
+    height: 200px;
+    transition: all .5s ease-in-out;
+}
+
+
+
+
 
 .header-b{
     display: flex;
